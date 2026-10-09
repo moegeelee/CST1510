@@ -1,0 +1,1738 @@
+{
+  "verified_at_utc": "2026-10-09T20:58:59.808300+00:00",
+  "python_version": "3.9.6",
+  "notebooks": 19,
+  "code_cells": 204,
+  "expected_notebook_errors": 10,
+  "checks": 344,
+  "passed": 344,
+  "failed": 0,
+  "results": [
+    {
+      "check": "W03T01_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T01_walkthrough.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T02_walkthrough.ipynb cell 24",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: NameError; actual: NameError"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03T04_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: NameError; actual: NameError"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Extra_Practice.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: NameError; actual: NameError"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 24",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 26",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 28",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 31",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 33",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 35",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 38",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W03_Lab.ipynb cell 40",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02T04_walkthrough.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: IndentationError; actual: IndentationError"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: SyntaxError; actual: SyntaxError"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: IndentationError; actual: IndentationError"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 24",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Extra_Practice.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W02_Lab.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T01_walkthrough.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 24",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T02_walkthrough.ipynb cell 26",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 27",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 29",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T03_walkthrough.ipynb cell 31",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 27",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01T04_walkthrough.ipynb cell 29",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: TypeError; actual: TypeError"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: TypeError; actual: TypeError"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: ValueError; actual: ValueError"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: ValueError; actual: ValueError"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 24",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Extra_Practice.ipynb cell 26",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "w2file1.ipynb cell 0",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W01_Lab.ipynb cell 18 alternate inputs ['38', '250', 'rows missing']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W01 D7 rows missing percent and alignment",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W01_Lab.ipynb cell 18 alternate inputs ['12', '400', 'failed logins']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W01 D7 failed logins percent and alignment",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W01_Lab.ipynb cell 18 alternate inputs ['87', '120', 'disk used GB']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W01 D7 disk used GB percent and alignment",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 16 alternate inputs ()",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Inclusive boolean endpoints 89.99",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 16 alternate inputs ()",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Inclusive boolean endpoints 90",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 16 alternate inputs ()",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Inclusive boolean endpoints 100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T01_walkthrough.ipynb cell 16 alternate inputs ()",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Inclusive boolean endpoints 100.01",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 20 alternate inputs ['1']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Login tier 1",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 20 alternate inputs ['2']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Login tier 2",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 20 alternate inputs ['3']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Login tier 3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T02_walkthrough.ipynb cell 20 alternate inputs ['4']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Login tier 4",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02T03_walkthrough.ipynb cell 15 alternate inputs ['', '2', '', '-1', 'done']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Blank sentinel inputs are skipped",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02_Lab.ipynb cell 18 alternate inputs ['100', '100', '101', '100', '99', '100']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W02 D7 strict greater-than boundary",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W03_Lab.ipynb cell 40 alternate inputs ()",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "count_over exact limit is not over",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "count_over handles no values",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W03T03_walkthrough.ipynb cell 17 alternate inputs ()",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "split_time returns minutes and seconds, not hours",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 1 stays within required syntax",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py: inputs=['survey_2026', '1187', '1200']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py: inputs=['sample', '87', '100']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py: inputs=['overflow', '120', '100']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py: inputs=['zero_total', '1', '0']",
+      "passed": true,
+      "details": "Expected ZeroDivisionError"
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py: inputs=['bad_input', 'abc']",
+      "passed": true,
+      "details": "Expected ValueError"
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py: inputs=['full', '100', '100']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 2 stays within required syntax",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['survey_2026', '1187', '1200', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['sample', '87', '100', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['overflow', '120', '100', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['zero_total', '1', '0']",
+      "passed": true,
+      "details": "Expected ZeroDivisionError"
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['bad_input', 'abc']",
+      "passed": true,
+      "details": "Expected ValueError"
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['a', '89.99', '100', 'b', '90', '100', 'c', '100', '100', 'd', '101', '100', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 2 exact status boundaries and loop",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 2 summary once",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=['quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py: inputs=[' QuIt ']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 stays within required syntax",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['survey_2026', '1187', '1200', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['sample', '87', '100', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['overflow', '120', '100', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['zero_total', '1', '0']",
+      "passed": true,
+      "details": "Expected ZeroDivisionError"
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['bad_input', 'abc']",
+      "passed": true,
+      "details": "Expected ValueError"
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['a', '89.99', '100', 'b', '90', '100', 'c', '100', '100', 'd', '101', '100', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 exact status boundaries and loop",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 summary once",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=['quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py: inputs=[' QuIt ']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 functions have docstrings",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 calculations and status do not print",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 import has no prompts or printed output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 calculation returns two correct results",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 default and custom threshold",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/warmup/01_name_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/warmup/02_type_error.py: inputs=['23.7']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/warmup/03_value_error.py: inputs=['23.7']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/warmup/01_missing_argument.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/warmup/03_import_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/LAB/warmup/02_scope_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/01_indentation_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/03_type_error.py: inputs=['23.7']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/02_syntax_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/01 - Defining and Calling Functions/examples/01_defining_and_calling.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/01 - Defining and Calling Functions/examples/02_why_functions.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/02 - Parameters and Arguments/examples/01_multiple_and_default.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/02 - Parameters and Arguments/examples/02_keyword_arguments.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/02 - Parameters and Arguments/examples/03_args_and_kwargs.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/03 - Scope/examples/01_local_variables.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/03 - Scope/examples/02_return_it_out.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/01_import.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/02_from_import.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/03_main_guard.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/checker.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/01 - Comparisons and Boolean Logic/examples/01_comparisons.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/01 - Comparisons and Boolean Logic/examples/02_boolean_logic.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/02 - if, elif, else/examples/01_if_elif_else.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/02 - if, elif, else/examples/02_indentation.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/03 - while Loops/examples/01_while_basics.py: inputs=['y', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/03 - while Loops/examples/02_sentinel_and_running_total.py: inputs=['R-1', 'quit', '2', '3', 'done', '87', '100', '120', '100', '45', '100']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/04 - for Loops and range/examples/01_for_and_range.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/04 - for Loops and range/examples/02_for_vs_while.py: inputs=['R-1', '87', '100', 'R-2', '120', '100', 'R-3', '45', '100', 'R-4', '105', '100', 'quit', '-1']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/01 - Your First Program/examples/01_print_basics.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/01 - Your First Program/examples/02_quotes_and_lines.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/02 - Variables and Types/examples/01_variables.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/02 - Variables and Types/examples/02_types.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/03 - Numbers and Arithmetic/examples/01_operators.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/03 - Numbers and Arithmetic/examples/02_calculations.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/04 - Input, Casting and f-strings/examples/01_input_and_casting.py: inputs=['R-004', '23.7', '23.7']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/04 - Input, Casting and f-strings/examples/02_fstrings.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/03_main_guard.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/checker.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "importer.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/EXTRA_PRACTICE/band_name.py: inputs=['Lagos', 'Nova']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/EXTRA_PRACTICE/tip_calculator.py: inputs=['150', '5', '12']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/rock_paper_scissors.py: inputs=['rock']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 random guessing with controlled secret",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 3 chooses a random secret in 1..100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py: inputs=['10', '+', '5', 'y', '*', '2', 'n', '8', '/', '2', 'q']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['S', 'y', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/treasure_island.py: inputs=['left', 'wait', 'yellow']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/number_guessing.py: inputs=['50', '30', '42']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/higher_lower.py: inputs=['a', 'b', 'quit']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['S', 'y', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['S', 'y', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['S', 'n', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['S', 'n', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['M', 'y', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['M', 'y', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['M', 'n', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['M', 'n', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['L', 'y', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['L', 'y', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['L', 'n', 'y']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py: inputs=['L', 'n', 'n']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('rock', 'rock')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('rock', 'paper')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('rock', 'scissors')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('paper', 'rock')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('paper', 'paper')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('paper', 'scissors')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('scissors', 'rock')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('scissors', 'paper')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS outcome ('scissors', 'scissors')",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS computer choice 0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS computer choice 1",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "RPS computer choice 2",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py: inputs=['10', '/', '0', '+', '2', 'q']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py: inputs=['10', '?', 'q']",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "limits": [
+    "Verifies worked code, not student understanding.",
+    "Intentional errors are expected and recorded.",
+    "Normal mini-project runs assume numeric inputs and positive totals.",
+    "CW1 brief and handwritten photos are still required."
+  ]
+}

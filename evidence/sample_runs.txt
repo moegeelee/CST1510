@@ -1,0 +1,1008 @@
+AUTOMATED SAMPLE RUNS — not a personal learning journal.
+Trailing spaces trimmed for readability; inputs are listed separately.
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py
+INPUTS: ['survey_2026', '1187', '1200']
+EXIT: 0
+Dataset name: Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - survey_2026
+==========================================
+  Rows loaded   :    1187.00
+  Rows expected :    1200.00
+  Rows remaining:     +13.00
+  Loaded percent:      98.92 %
+  Remaining pct :      +1.08 %
+==========================================
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py
+INPUTS: ['sample', '87', '100']
+EXIT: 0
+Dataset name: Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - sample
+==========================================
+  Rows loaded   :      87.00
+  Rows expected :     100.00
+  Rows remaining:     +13.00
+  Loaded percent:      87.00 %
+  Remaining pct :     +13.00 %
+==========================================
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py
+INPUTS: ['overflow', '120', '100']
+EXIT: 0
+Dataset name: Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - overflow
+==========================================
+  Rows loaded   :     120.00
+  Rows expected :     100.00
+  Rows remaining:     -20.00
+  Loaded percent:     120.00 %
+  Remaining pct :     -20.00 %
+==========================================
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py
+INPUTS: ['zero_total', '1', '0']
+EXIT: 1
+Dataset name: Rows loaded: Rows expected: Traceback (most recent call last):
+  File "/Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py", line 19, in <module>
+    loaded_percent = (rows_loaded / rows_expected) * 100
+ZeroDivisionError: float division by zero
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py
+INPUTS: ['bad_input', 'abc']
+EXIT: 1
+Dataset name: Rows loaded: Traceback (most recent call last):
+  File "/Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py", line 14, in <module>
+    rows_loaded = float(input("Rows loaded: "))
+ValueError: could not convert string to float: 'abc'
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py
+INPUTS: ['full', '100', '100']
+EXIT: 0
+Dataset name: Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - full
+==========================================
+  Rows loaded   :     100.00
+  Rows expected :     100.00
+  Rows remaining:      +0.00
+  Loaded percent:     100.00 %
+  Remaining pct :      +0.00 %
+==========================================
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['survey_2026', '1187', '1200', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - survey_2026
+==========================================
+  Rows loaded   :    1187.00
+  Rows expected :    1200.00
+  Rows remaining:     +13.00
+  Loaded percent:      98.92 %
+  Status        :    WARNING
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['sample', '87', '100', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - sample
+==========================================
+  Rows loaded   :      87.00
+  Rows expected :     100.00
+  Rows remaining:     +13.00
+  Loaded percent:      87.00 %
+  Status        :         OK
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['overflow', '120', '100', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - overflow
+==========================================
+  Rows loaded   :     120.00
+  Rows expected :     100.00
+  Rows remaining:     -20.00
+  Loaded percent:     120.00 %
+  Status        : OVER LIMIT
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 1
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['zero_total', '1', '0']
+EXIT: 1
+Dataset name (or 'quit'): Rows loaded: Rows expected: Traceback (most recent call last):
+  File "/Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py", line 23, in <module>
+    loaded_percent = (rows_loaded / rows_expected) * 100
+ZeroDivisionError: float division by zero
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['bad_input', 'abc']
+EXIT: 1
+Dataset name (or 'quit'): Rows loaded: Traceback (most recent call last):
+  File "/Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py", line 20, in <module>
+    rows_loaded = float(input("Rows loaded: "))
+ValueError: could not convert string to float: 'abc'
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['a', '89.99', '100', 'b', '90', '100', 'c', '100', '100', 'd', '101', '100', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - a
+==========================================
+  Rows loaded   :      89.99
+  Rows expected :     100.00
+  Rows remaining:     +10.01
+  Loaded percent:      89.99 %
+  Status        :         OK
+==========================================
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - b
+==========================================
+  Rows loaded   :      90.00
+  Rows expected :     100.00
+  Rows remaining:     +10.00
+  Loaded percent:      90.00 %
+  Status        :    WARNING
+==========================================
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - c
+==========================================
+  Rows loaded   :     100.00
+  Rows expected :     100.00
+  Rows remaining:      +0.00
+  Loaded percent:     100.00 %
+  Status        : OVER LIMIT
+==========================================
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - d
+==========================================
+  Rows loaded   :     101.00
+  Rows expected :     100.00
+  Rows remaining:      -1.00
+  Loaded percent:     101.00 %
+  Status        : OVER LIMIT
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 2
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: ['quit']
+EXIT: 0
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py
+INPUTS: [' QuIt ']
+EXIT: 0
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['survey_2026', '1187', '1200', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - survey_2026
+==========================================
+  Rows loaded   :    1187.00
+  Rows expected :    1200.00
+  Rows remaining:     +13.00
+  Loaded percent:      98.92 %
+  Status        :    WARNING
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['sample', '87', '100', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - sample
+==========================================
+  Rows loaded   :      87.00
+  Rows expected :     100.00
+  Rows remaining:     +13.00
+  Loaded percent:      87.00 %
+  Status        :         OK
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['overflow', '120', '100', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - overflow
+==========================================
+  Rows loaded   :     120.00
+  Rows expected :     100.00
+  Rows remaining:     -20.00
+  Loaded percent:     120.00 %
+  Status        : OVER LIMIT
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 1
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['zero_total', '1', '0']
+EXIT: 1
+Dataset name (or 'quit'): Rows loaded: Rows expected: Traceback (most recent call last):
+  File "/Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py", line 53, in <module>
+    rows_remaining, loaded_percent = check(rows_loaded, rows_expected)
+  File "/Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py", line 25, in check
+    percent = (value / limit) * 100
+ZeroDivisionError: float division by zero
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['bad_input', 'abc']
+EXIT: 1
+Dataset name (or 'quit'): Rows loaded: Traceback (most recent call last):
+  File "/Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py", line 51, in <module>
+    rows_loaded = float(input("Rows loaded: "))
+ValueError: could not convert string to float: 'abc'
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['a', '89.99', '100', 'b', '90', '100', 'c', '100', '100', 'd', '101', '100', 'quit']
+EXIT: 0
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - a
+==========================================
+  Rows loaded   :      89.99
+  Rows expected :     100.00
+  Rows remaining:     +10.01
+  Loaded percent:      89.99 %
+  Status        :         OK
+==========================================
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - b
+==========================================
+  Rows loaded   :      90.00
+  Rows expected :     100.00
+  Rows remaining:     +10.00
+  Loaded percent:      90.00 %
+  Status        :    WARNING
+==========================================
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - c
+==========================================
+  Rows loaded   :     100.00
+  Rows expected :     100.00
+  Rows remaining:      +0.00
+  Loaded percent:     100.00 %
+  Status        : OVER LIMIT
+==========================================
+Dataset name (or 'quit'): Rows loaded: Rows expected:
+==========================================
+  RECORD CHECK - d
+==========================================
+  Rows loaded   :     101.00
+  Rows expected :     100.00
+  Rows remaining:      -1.00
+  Loaded percent:     101.00 %
+  Status        : OVER LIMIT
+==========================================
+Dataset name (or 'quit'): OVER LIMIT records: 2
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: ['quit']
+EXIT: 0
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py
+INPUTS: [' QuIt ']
+EXIT: 0
+Dataset name (or 'quit'): OVER LIMIT records: 0
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/warmup/01_name_error.py
+INPUTS: []
+EXIT: 0
+R-004
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/warmup/02_type_error.py
+INPUTS: ['23.7']
+EXIT: 0
+Value: 24.7
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/warmup/03_value_error.py
+INPUTS: ['23.7']
+EXIT: 0
+Value: 23.7
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/warmup/01_missing_argument.py
+INPUTS: []
+EXIT: 0
+WARNING
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/warmup/03_import_error.py
+INPUTS: []
+EXIT: 0
+4.0
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/warmup/02_scope_error.py
+INPUTS: []
+EXIT: 0
+OK
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/01_indentation_error.py
+INPUTS: []
+EXIT: 0
+OVER
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/03_type_error.py
+INPUTS: ['23.7']
+EXIT: 0
+Value: OVER
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/02_syntax_error.py
+INPUTS: []
+EXIT: 0
+checking...
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/01 - Defining and Calling Functions/examples/01_defining_and_calling.py
+INPUTS: []
+EXIT: 0
+Record check starting
+Record check starting
+Checking srv-01
+Checking srv-02
+120.0
+100
+None
+yes
+no
+maybe
+10.0.0.5 -> True
+8.8.8.8 -> False
+srv-01 is up
+srv-02 is up
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/01 - Defining and Calling Functions/examples/02_why_functions.py
+INPUTS: []
+EXIT: 0
+87.0 %
+120.0 %
+45.0 %
+87.0 %
+120.0 %
+45.0 %
+OK
+WARNING
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/02 - Parameters and Arguments/examples/01_multiple_and_default.py
+INPUTS: []
+EXIT: 0
+True
+False
+WARNING
+OK
+loading survey_2026.csv (header=True)
+scanning 10.0.0.5 (timeout=5s)
+backing up srv-01 to /mnt/backups
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/02 - Parameters and Arguments/examples/02_keyword_arguments.py
+INPUTS: []
+EXIT: 0
+WARNING
+WARNING
+WARNING
+WARNING
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/02 - Parameters and Arguments/examples/03_args_and_kwargs.py
+INPUTS: []
+EXIT: 0
+6
+100
+0
+3 item(s): ('router', 'switch', 'firewall')
+ - router
+ - switch
+ - firewall
+host = 10.0.0.1
+port = 8080
+ssl = True
+primary host: 10.0.0.1
+primary host: 10.0.0.1
+also connecting to: ('10.0.0.2', '10.0.0.3')
+  option timeout = 5
+  option retries = 3
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/03 - Scope/examples/01_local_variables.py
+INPUTS: []
+EXIT: 0
+OK
+42
+21
+6
+6
+WARNING
+missing
+ Missing
+flagged: clean
+clean
+87
+87
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/03 - Scope/examples/02_return_it_out.py
+INPUTS: []
+EXIT: 0
+100
+120.0
+-13 87.0
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/01_import.py
+INPUTS: []
+EXIT: 0
+4.0
+3.141592653589793
+5
+4
+1
+OK
+22.825 22.9
+ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
+2026-10-10T00:58:59.327665
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/02_from_import.py
+INPUTS: []
+EXIT: 0
+4.0
+5
+4
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/03_main_guard.py
+INPUTS: []
+EXIT: 0
+--- importing checker ---
+--- back in 03_main_guard.py ---
+False
+True
+78.53981633974483
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/checker.py
+INPUTS: []
+EXIT: 0
+checker.py is running directly - this line only appears here
+False
+True
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/01 - Comparisons and Boolean Logic/examples/01_comparisons.py
+INPUTS: []
+EXIT: 0
+False
+True
+True
+False
+True
+False
+True
+<class 'bool'>
+True
+False
+True
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/01 - Comparisons and Boolean Logic/examples/02_boolean_logic.py
+INPUTS: []
+EXIT: 0
+True
+False
+True
+True
+False
+False
+False
+True
+True
+True
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/02 - if, elif, else/examples/01_if_elif_else.py
+INPUTS: []
+EXIT: 0
+OVER
+OVER
+WARNING
+WARNING
+check pipeline
+LOCKED
+ALERT
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/02 - if, elif, else/examples/02_indentation.py
+INPUTS: []
+EXIT: 0
+checking...
+OVER
+done
+line one
+line two
+OVER
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/03 - while Loops/examples/01_while_basics.py
+INPUTS: ['y', 'n']
+EXIT: 0
+1
+2
+3
+done
+15
+Another? (y/n): okay, again
+Another? (y/n):
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/03 - while Loops/examples/02_sentinel_and_running_total.py
+INPUTS: ['R-1', 'quit', '2', '3', 'done', '87', '100', '120', '100', '45', '100']
+EXIT: 0
+Record ID (or 'quit'): checking R-1...
+Record ID (or 'quit'): Enter a number (or 'done'): Enter a number (or 'done'): Enter a number (or 'done'): Total: 5.0
+Value: Limit: Value: Limit: Value: Limit: 1 of 3 were over limit
+1
+2
+4
+5
+processing batch of 50 rows
+processing batch of 50 rows
+processing batch of 50 rows
+suspicious line
+still down, checking again
+still down, checking again
+server is healthy
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/04 - for Loops and range/examples/01_for_and_range.py
+INPUTS: []
+EXIT: 0
+0
+1
+2
+3
+4
+1
+2
+3
+4
+5
+1
+2
+3
+4
+2
+4
+6
+8
+10
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+checking a record
+checking a record
+checking a record
+0
+1
+2
+0 c
+1 a
+2 t
+server 1: srv-01
+server 2: srv-02
+server 3: srv-03
+processing row 0
+processing row 1
+processing row 2
+processing row 3
+processing row 4
+checking 10.0.0.5
+checking 10.0.0.9
+checking 192.168.1.1
+pinging srv-01
+pinging srv-02
+pinging srv-03
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/04 - for Loops and range/examples/02_for_vs_while.py
+INPUTS: ['R-1', '87', '100', 'R-2', '120', '100', 'R-3', '45', '100', 'R-4', '105', '100', 'quit', '-1']
+EXIT: 0
+Record ID: Value: Limit: R-1: OK
+Record ID: Value: Limit: R-2: OVER LIMIT
+Record ID: Value: Limit: R-3: OK
+Record ID (or 'quit'): Value: Limit: R-4: OVER LIMIT
+Record ID (or 'quit'): Value (or -1 to stop early):
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/01 - Your First Program/examples/01_print_basics.py
+INPUTS: []
+EXIT: 0
+Record check starting
+Done
+Record R-004 checked
+Checked 3 records
+
+2026-09-14
+ab
+Loading... done
+RecordR-004
+Record R-004
+Record R-004 has value 23.7
+Double that is 47.4
+visible
+Rows loaded: 1200
+[ALERT] failed login from 10.0.0.5
+Backup complete - 4 of 4 servers
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/01 - Your First Program/examples/02_quotes_and_lines.py
+INPUTS: []
+EXIT: 0
+single quotes
+double quotes
+True
+the log said 'connection refused'
+it's over the limit
+she said "it's fine"
+line one
+line two
+ID	VALUE
+R-004	23.7
+C:\Users\student
+RECORD CHECK
+Value : 23.7
+==============================
+ababab
+555
+15
+
+==============================
+	RECORD CHECK
+==============================
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/02 - Variables and Types/examples/01_variables.py
+INPUTS: []
+EXIT: 0
+R-004
+R-004 has value 23.7
+3.6999999999999993
+3.6999999999999993
+0
+1
+10 3
+23.7 celsius
+10.0.0.5 443
+srv-01 87
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/02 - Variables and Types/examples/02_types.py
+INPUTS: []
+EXIT: 0
+<class 'str'>
+<class 'float'>
+<class 'int'>
+20
+20
+<class 'str'>
+<class 'int'>
+2020
+40
+ababab
+6
+<class 'int'>
+<class 'float'>
+<class 'float'>
+5.0
+<class 'int'>
+<class 'str'>
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/03 - Numbers and Arithmetic/examples/01_operators.py
+INPUTS: []
+EXIT: 0
+a + b  = 22
+a - b  = 12
+a * b  = 85
+a / b  = 3.4
+a // b = 3
+a % b  = 2
+a ** b = 1419857
+5.0
+<class 'float'>
+3
+1
+137 minutes = 2 hours 17 minutes
+4831 seconds = 1 hours, 20 minutes, 31 seconds
+14
+20
+118.5
+118.5
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/03 - Numbers and Arithmetic/examples/02_calculations.py
+INPUTS: []
+EXIT: 0
+Difference: 3.6999999999999993
+Percent   : 118.5
+118.5 %
+missing: 15.2 %
+failed : 3.0 %
+disk   : 72.5 %
+free   : 33 GB
+free % : 27.500000000000004
+2
+140
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/04 - Input, Casting and f-strings/examples/01_input_and_casting.py
+INPUTS: ['R-004', '23.7', '23.7']
+EXIT: 0
+Record ID : You entered: R-004
+Value     : You typed : 23.7
+Its type  : <class 'str'>
+20 <class 'int'>
+20.0 <class 'float'>
+20 <class 'str'>
+Value again : 24.7
+<class 'float'>
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/04 - Input, Casting and f-strings/examples/02_fstrings.py
+INPUTS: []
+EXIT: 0
+Record R-004 has value 23.7
+Over the limit by 3.6999999999999993
+Record {record_id}
+118.5
+118.50
+118
+3.6999999999999993
+3.70
+--- no alignment ---
+Value : 23.7
+Limit : 20.0
+Diff  : 3.6999999999999993
+--- aligned ---
+Value :      23.70
+Limit :      20.00
+Diff  :      +3.70
+srv-01          87
+
+==================================
+  RECORD CHECK  -  R-004
+==================================
+  Value       :      23.70
+  Limit       :      20.00
+  Difference  :      +3.70
+  Of limit    :     118.5 %
+==================================
+Mean: 23.70 over 1200 rows
+[ALERT] 12 failed logins from 10.0.0.5
+srv-01       disk  87 %
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/03_main_guard.py
+INPUTS: []
+EXIT: 0
+--- importing checker ---
+--- back in 03_main_guard.py ---
+False
+True
+78.53981633974483
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/checker.py
+INPUTS: []
+EXIT: 0
+checker.py is running directly - this line only appears here
+False
+True
+
+
+FILE: /var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpj7o3tbz_/importer.py
+INPUTS: []
+EXIT: 0
+temporary unguarded print
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/EXTRA_PRACTICE/band_name.py
+INPUTS: ['Lagos', 'Nova']
+EXIT: 0
+Welcome to the Band Name Generator!
+City you grew up in:
+Pet name:
+Your band name is Lagos Nova.
+
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/EXTRA_PRACTICE/tip_calculator.py
+INPUTS: ['150', '5', '12']
+EXIT: 0
+Total bill: Number of people: Tip percentage: Each person should pay: $33.60
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/rock_paper_scissors.py
+INPUTS: ['rock']
+EXIT: 0
+Rock, paper or scissors? Computer: rock
+Winner: draw
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py
+INPUTS: ['10', '+', '5', 'y', '*', '2', 'n', '8', '/', '2', 'q']
+EXIT: 0
+First number: Operator (+ - * /), or q to quit: Second number: 10.0 + 5.0 = 15.0
+Type y to continue with the result, n to start over, or q to quit: Operator (+ - * /), or q to quit: Second number: 15.0 * 2.0 = 30.0
+Type y to continue with the result, n to start over, or q to quit: First number: Operator (+ - * /), or q to quit: Second number: 8.0 / 2.0 = 4.0
+Type y to continue with the result, n to start over, or q to quit:
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['S', 'y', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $18.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/treasure_island.py
+INPUTS: ['left', 'wait', 'yellow']
+EXIT: 0
+Welcome to Treasure Island.
+Left or right? Swim or wait? Choose a door: red, blue or yellow: You found the treasure!
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/number_guessing.py
+INPUTS: ['50', '30', '42']
+EXIT: 0
+Guess the number (1-100): Too high
+Guess the number (1-100): Too low
+Guess the number (1-100): Correct! You used 3 guesses.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/higher_lower.py
+INPUTS: ['a', 'b', 'quit']
+EXIT: 0
+Who has more followers: Account A or Account B? (a/b/quit): Correct
+Who has more followers: Account A or Account B? (a/b/quit): Wrong
+Who has more followers: Account A or Account B? (a/b/quit):
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['S', 'y', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $18.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['S', 'y', 'n']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $17.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['S', 'n', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $16.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['S', 'n', 'n']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $15.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['M', 'y', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $24.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['M', 'y', 'n']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $23.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['M', 'n', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $21.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['M', 'n', 'n']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $20.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['L', 'y', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $29.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['L', 'y', 'n']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $28.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['L', 'n', 'y']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $26.
+
+
+FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/EXTRA_PRACTICE/pizza.py
+INPUTS: ['L', 'n', 'n']
+EXIT: 0
+Pizza size (S/M/L): Pepperoni? (y/n): Extra cheese? (y/n): Your final bill is: $25.
+
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py
+INPUTS: ['10', '/', '0', '+', '2', 'q']
+EXIT: 0
+First number: Operator (+ - * /), or q to quit: Second number: Cannot divide by zero. Choose another calculation.
+Operator (+ - * /), or q to quit: Second number: 10.0 + 2.0 = 12.0
+Type y to continue with the result, n to start over, or q to quit:
+
+FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py
+INPUTS: ['10', '?', 'q']
+EXIT: 0
+First number: Operator (+ - * /), or q to quit: Unknown operator.
+Operator (+ - * /), or q to quit:

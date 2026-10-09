@@ -1,0 +1,29 @@
+{
+  "student": "MOHAMMED MOHAMMED ALHAJI",
+  "scope": "Supplied Weeks 1\u20133 only",
+  "repository": "https://github.com/moegeelee/CST1510",
+  "prepared_on": "2026-10-10",
+  "your_turn_prompts": 52,
+  "topic_challenges": 12,
+  "lab_drills": 29,
+  "lab_challenges": 2,
+  "mini_projects": 3,
+  "warmup_files": 9,
+  "optional_example_sections": 26,
+  "extra_projects": 9,
+  "code_verified": true,
+  "understanding_verified": false,
+  "cw1_brief_received": false,
+  "university_submission_confirmed": false,
+  "cheat_sheet_photos_received": false,
+  "baseline_commit": "f522210",
+  "remote_push_verified": true,
+  "pending": [
+    "CW1 brief, rubric, deadline, AI rules and destination",
+    "Student handwritten cheat-sheet photos for Weeks 1\u20133",
+    "Requested personal reflections and peer demonstrations",
+    "Independent understanding checks",
+    "Formal submission receipt"
+  ],
+  "verified_coursework_commit": "8be0978932004d26470059c6bb031e56660ce971"
+}
