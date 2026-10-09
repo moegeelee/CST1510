@@ -1,6 +1,3 @@
-# BROKEN ON PURPOSE.
-# Run it, type 23.7 when asked, read the last line, then fix it.
-
-value = int(input("Value: "))
-
+# Fixed: float("23.7") works; int("23.7") raises ValueError.
+value = float(input("Value: "))
 print(value)
