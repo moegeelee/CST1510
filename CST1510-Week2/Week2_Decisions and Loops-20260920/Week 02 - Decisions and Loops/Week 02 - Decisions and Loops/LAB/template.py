@@ -1,67 +1,47 @@
 """
-RECORD CHECK  -  my version
-===========================
-
-Name  :
-Lane  :  AI / Cyber / IT      (delete two)
-Date  :
-
-Run it:   python template.py
-
-Work through the numbered sections in order. Each one tells you what it must do.
-Delete these instructions as you replace them with your code.
+CST1510 - Week 2 Record Check (Excellent tier)
+Student: MOHAMMED MOHAMMED ALHAJI
+Lane: AI / Data Science
+Prepared with Codex assistance: 2026-10-10.
+Run this file, explain each line, then recreate it without the worked solution.
+Inputs follow the supplied template's float() requirement.
+Use valid numbers and a nonzero expected count for normal runs.
+The requested zero-total experiment deliberately raises ZeroDivisionError.
 """
 
-# ==================================================================== INPUT
-# 1. Ask for your three values.
-#
-#    - the first is TEXT      (a name, a hostname, an IP)  -> no conversion needed
-#    - the second is a NUMBER (use float(), not int())
-#    - the third  is a NUMBER (use float(), not int())
+over_limit_count = 0
 
-label = ""      # TODO: replace with an input() call
-value = 0.0     # TODO: replace with an input() call, converted
-limit = 0.0     # TODO: replace with an input() call, converted
+while True:
+    dataset_name = input("Dataset name (or 'quit'): ").strip()
+    # Check the stop signal BEFORE asking for the other two inputs.
+    if dataset_name.lower() == "quit":
+        break
 
+    rows_loaded = float(input("Rows loaded: "))
+    rows_expected = float(input("Rows expected: "))
+    rows_remaining = rows_expected - rows_loaded
+    loaded_percent = (rows_loaded / rows_expected) * 100
 
-# ================================================================== PROCESS
-# 2. Work out the difference and the percentage.       [Typical and above]
+    # These labels follow the lab rubric. In a real pipeline, 100% loaded
+    # usually means complete; these bands are not a general data-quality rule.
+    if loaded_percent >= 100:
+        status = "OVER LIMIT"
+        over_limit_count += 1
+    elif loaded_percent >= 90:
+        status = "WARNING"
+    else:
+        status = "OK"
 
-difference = 0.0   # TODO
-percent = 0.0       # TODO
-# 3. Decide a status and store it in a variable called status.
-#
-#    Threshold : if / else        -> "OVER LIMIT" or "OK"
-#    Typical   : if / elif / else -> "OVER LIMIT" (100% or more),
-#                                     "WARNING" (90% or more), otherwise "OK"
+    print()
+    print("=" * 42)
+    print(f"  RECORD CHECK - {dataset_name}")
+    print("=" * 42)
+    print(f"  Rows loaded   : {rows_loaded:>10.2f}")
+    print(f"  Rows expected : {rows_expected:>10.2f}")
+    print(f"  Rows remaining: {rows_remaining:>+10.2f}")
+    print(f"  Loaded percent: {loaded_percent:>10.2f} %")
+    print(f"  Status        : {status:>10}")
+    print("=" * 42)
 
-status = ""   # TODO
-
-
-# =================================================================== OUTPUT
-# 4. Print the report.
-#
-#    Threshold : the three values you were given, plus status, inside a border
-#    Typical   : add difference and percent, 2 decimal places, right-aligned
-#    Excellent : wrap sections 1-4 in a loop so you can check as many records
-#                as you like in one run - type "quit" as the label to stop.
-#                Keep count of how many came back OVER LIMIT and print that
-#                once, after the loop ends.
-
-print()
-print("=" * 34)
-print(f"  RECORD CHECK  -  {label}")
-print("=" * 34)
-
-# TODO: your report lines go here
-
-print("=" * 34)
-
-
-# ==========================================================================
-# 5. Before you finish:
-#
-#    [ ] Run it three times with different numbers
-#    [ ] Run it with a total of 0 and write the error in your journal
-#    [ ] Check every variable name says what it holds
-#    [ ] Show it to the person next to you
+# Outside the loop: this appears once, after quit.
+print(f"OVER LIMIT records: {over_limit_count}")

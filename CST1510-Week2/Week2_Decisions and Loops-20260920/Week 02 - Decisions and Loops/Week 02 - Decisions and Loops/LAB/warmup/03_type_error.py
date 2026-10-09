@@ -1,9 +1,6 @@
-# BROKEN ON PURPOSE.
-# Run it, read the last line, then fix it.
-
+# Fixed: compare two numeric values, not input text against an integer.
 limit = 20
-value = input("Value: ")
-
+value = float(input("Value: "))
 if value > limit:
     print("OVER")
 else:
