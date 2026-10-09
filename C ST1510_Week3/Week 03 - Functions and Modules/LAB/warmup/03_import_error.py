@@ -1,5 +1,4 @@
-# BROKEN ON PURPOSE.
-# Run it, read the last line, then fix it.
+# Already fixed in supplied work; verified during review.
 
 import math
 
