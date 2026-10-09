@@ -33,7 +33,7 @@ The verification helper uses more advanced Python than the coursework; it is sup
 ## Remaining work
 
 - Obtain and check the CW1 assessment brief, marking rubric, deadline and submission instructions.
-- Add the student's own handwritten cheat-sheet photos to each lab notebook.
+- Review the handwritten note corrections and requested cumulative-sheet layout; the four supplied photos are now embedded in the lab notebooks.
 - Complete the requested personal reflections and demonstrations.
 - Demonstrate understanding by solving fresh problems without the worked answers.
 - Complete the required university submission and retain its confirmation.
