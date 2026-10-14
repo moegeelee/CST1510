@@ -17,7 +17,7 @@
   "university_submission_confirmed": false,
   "cheat_sheet_photos_received": true,
   "baseline_commit": "f522210",
-  "remote_push_verified": false,
+  "remote_push_verified": true,
   "pending": [
     "CW1 brief, rubric, deadline, AI rules and destination",
     "Review handwritten note corrections and the requested cumulative-sheet layout",
@@ -26,7 +26,7 @@
     "Independent understanding checks",
     "Formal submission receipt"
   ],
-  "verified_coursework_commit": "8be0978932004d26470059c6bb031e56660ce971",
+  "verified_coursework_commit": "473567f5da5e830ea2350f93cb3014cf2d275081",
   "cheat_sheet_photos_embedded": true,
   "cheat_sheet_format_verified": false,
   "handwritten_notes_corrections_complete": false,
@@ -91,7 +91,9 @@
     "understanding_verified": false,
     "input_data": "Week 04 - Lists, Dictionaries and Files/LAB/datasets.txt",
     "output_data": "Week 04 - Lists, Dictionaries and Files/LAB/dataset_results.txt",
-    "push_verified": false
+    "push_verified": true,
+    "verified_content_commit": "473567f5da5e830ea2350f93cb3014cf2d275081",
+    "remote_verification_utc": "2026-10-14T09:08:13.371522+00:00"
   },
   "verification": {
     "checks": 524,
