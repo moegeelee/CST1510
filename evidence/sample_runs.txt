@@ -50,7 +50,7 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and I
 INPUTS: ['zero_total', '1', '0']
 EXIT: 1
 Dataset name: Rows loaded: Rows expected: Traceback (most recent call last):
-  File "/Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py", line 19, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmp5lkpm4sv/workspace/template.py", line 19, in <module>
     loaded_percent = (rows_loaded / rows_expected) * 100
 ZeroDivisionError: float division by zero
 
@@ -59,7 +59,7 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and I
 INPUTS: ['bad_input', 'abc']
 EXIT: 1
 Dataset name: Rows loaded: Traceback (most recent call last):
-  File "/Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/LAB/template.py", line 14, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpg_vu7w1w/workspace/template.py", line 14, in <module>
     rows_loaded = float(input("Rows loaded: "))
 ValueError: could not convert string to float: 'abc'
 
@@ -131,7 +131,7 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-202
 INPUTS: ['zero_total', '1', '0']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Rows expected: Traceback (most recent call last):
-  File "/Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py", line 23, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpq7jaogkk/workspace/template.py", line 23, in <module>
     loaded_percent = (rows_loaded / rows_expected) * 100
 ZeroDivisionError: float division by zero
 
@@ -140,7 +140,7 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-202
 INPUTS: ['bad_input', 'abc']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Traceback (most recent call last):
-  File "/Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/template.py", line 20, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpkeel9gnj/workspace/template.py", line 20, in <module>
     rows_loaded = float(input("Rows loaded: "))
 ValueError: could not convert string to float: 'abc'
 
@@ -255,9 +255,9 @@ FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modu
 INPUTS: ['zero_total', '1', '0']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Rows expected: Traceback (most recent call last):
-  File "/Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py", line 53, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpw6os5v5k/workspace/template.py", line 53, in <module>
     rows_remaining, loaded_percent = check(rows_loaded, rows_expected)
-  File "/Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py", line 25, in check
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpw6os5v5k/workspace/template.py", line 25, in check
     percent = (value / limit) * 100
 ZeroDivisionError: float division by zero
 
@@ -266,7 +266,7 @@ FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modu
 INPUTS: ['bad_input', 'abc']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Traceback (most recent call last):
-  File "/Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/LAB/template.py", line 51, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpj7a55cp1/workspace/template.py", line 51, in <module>
     rows_loaded = float(input("Rows loaded: "))
 ValueError: could not convert string to float: 'abc'
 
@@ -363,6 +363,27 @@ FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modu
 INPUTS: []
 EXIT: 0
 OK
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/LAB/warmup/01_index_error.py
+INPUTS: []
+EXIT: 0
+R-003
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/LAB/warmup/03_file_not_found_error.py
+INPUTS: []
+EXIT: 0
+R-001,87,100
+R-002,120,100
+R-003,45,100
+
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/LAB/warmup/02_key_error.py
+INPUTS: []
+EXIT: 0
+Not checked
 
 
 FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/01_indentation_error.py
@@ -488,11 +509,11 @@ EXIT: 0
 3.141592653589793
 5
 4
-1
+2
 OK
 22.825 22.9
 ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
-2026-10-10T00:58:59.327665
+2026-10-14T13:06:54.638228
 
 
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/02_from_import.py
@@ -839,6 +860,212 @@ Mean: 23.70 over 1200 rows
 srv-01       disk  87 %
 
 
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/01 - Lists/examples/01_lists_and_indexing.py
+INPUTS: []
+EXIT: 0
+['R-001', 'R-002', 'R-003']
+<class 'list'>
+R-001
+R-002
+R-003
+R-003
+R-002
+3
+R-003
+R-003
+[174.0, 240.0, 90.0]
+[174.0, 240.0, 90.0]
+[87.0, 120.0]
+21.4 21.9
+2 failed logins this hour
+srv-01 is first on the list
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/01 - Lists/examples/02_slicing_and_mutating.py
+INPUTS: []
+EXIT: 0
+[20, 30]
+[10, 20]
+[30, 40, 50]
+[10, 20, 30, 40, 50]
+[99, 20, 30, 40, 50]
+['R-001', 'R-002', 'R-003']
+['R-002', 'R-003']
+True
+False
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/01 - Lists/examples/03_tuples.py
+INPUTS: []
+EXIT: 0
+3
+7
+(3,)
+(-13, 87.0)
+<class 'tuple'>
+-13 87.0
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/01_creating_and_accessing.py
+INPUTS: []
+EXIT: 0
+{'label': 'R-001', 'value': 87.0, 'limit': 100.0}
+<class 'dict'>
+R-001
+87.0
+{'label': 'R-001', 'value': 90.0, 'limit': 100.0, 'status': 'OK'}
+OK
+None
+n/a
+1200 rows, 13 missing
+10.0.0.5 -> 12 failed attempts
+srv-01 87 / 120 GB
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/02_iterating.py
+INPUTS: []
+EXIT: 0
+label
+value
+limit
+R-001
+87.0
+100.0
+label: R-001
+value: 87.0
+limit: 100.0
+  label     : R-001
+  value     : 87.0
+  limit     : 100.0
+{'srv-01': 87, 'srv-02': 45, 'srv-03': 120}
+45
+{'a': 1, 'b': 2}
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/03_sets.py
+INPUTS: []
+EXIT: 0
+{'R-002', 'R-001', 'R-003'}
+3
+<class 'dict'>
+<class 'set'>
+True
+False
+R-002
+R-001
+R-003
+{'10.0.0.5', '10.0.0.9'}
+{'10.0.0.6'}
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/03 - Files/examples/01_writing_and_reading.py
+INPUTS: []
+EXIT: 0
+R-001
+R-002
+R-003
+
+<class 'str'>
+R-001
+R-002
+R-003
+R-004
+
+readings loaded: ['21.4', '22.0', '23.7']
+ok
+ok
+FAILED 10.0.0.5
+hostnames: ['srv-01', 'srv-02', 'srv-03']
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/03 - Files/examples/02_line_by_line_and_split.py
+INPUTS: []
+EXIT: 0
+R-001,87,100
+
+R-002,120,100
+
+R-003,45,100
+
+R-001,87,100
+R-002,120,100
+R-003,45,100
+['R-001', '87', '100']
+<class 'list'>
+R-001 87 100
+187.0
+R-001 87.0 100.0
+R-002 120.0 100.0
+R-003 45.0 100.0
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/04 - Handling Errors/examples/01_catching_errors.py
+INPUTS: []
+EXIT: 0
+not a whole number - using 0 instead
+0
+missing.txt not found - using an empty report instead
+''
+5.0
+can't divide by zero
+None
+both values need to be numbers
+None
+caught it: invalid literal for int() with base 10: 'abc'
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/04 - Handling Errors/examples/02_a_safer_loader.py
+INPUTS: []
+EXIT: 0
+confirmed: load_records crashes on a missing file
+does_not_exist.txt not found - starting with an empty list
+[]
+skipping a bad line: this line is not shaped right
+[{'label': 'R-001', 'value': 87.0, 'limit': 100.0}, {'label': 'R-003', 'value': 45.0, 'limit': 100.0}]
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/05 - Putting It Together/examples/01_list_of_dicts.py
+INPUTS: []
+EXIT: 0
+<class 'list'>
+<class 'dict'>
+R-001
+R-001 87.0 100.0
+R-002 120.0 100.0
+R-003 45.0 100.0
+  label: R-001
+  value: 87.0
+  limit: 100.0
+
+  label: R-002
+  value: 120.0
+  limit: 100.0
+
+  label: R-003
+  value: 45.0
+  limit: 100.0
+
+3
+yes 21
+no 34
+10.0.0.5 FAILED
+10.0.0.9 OK
+srv-01 87 / 120
+srv-02 45 / 100
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/05 - Putting It Together/examples/02_load_and_process.py
+INPUTS: []
+EXIT: 0
+[{'label': 'R-001', 'value': 87.0, 'limit': 100.0}, {'label': 'R-002', 'value': 120.0, 'limit': 100.0}, {'label': 'R-003', 'value': 45.0, 'limit': 100.0}, {'label': 'R-004', 'value': 93.0, 'limit': 100.0}]
+4 records loaded
+R-001: OK
+R-002: OVER LIMIT
+R-003: OK
+R-004: OK
+1 of 4 were over limit
+
+
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/03_main_guard.py
 INPUTS: []
 EXIT: 0
@@ -857,7 +1084,7 @@ False
 True
 
 
-FILE: /var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpj7o3tbz_/importer.py
+FILE: /var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpw7v8f9cn/importer.py
 INPUTS: []
 EXIT: 0
 temporary unguarded print
@@ -882,8 +1109,8 @@ Total bill: Number of people: Tip percentage: Each person should pay: $33.60
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/rock_paper_scissors.py
 INPUTS: ['rock']
 EXIT: 0
-Rock, paper or scissors? Computer: rock
-Winner: draw
+Rock, paper or scissors? Computer: scissors
+Winner: user
 
 
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py
@@ -1006,3 +1233,174 @@ INPUTS: ['10', '?', 'q']
 EXIT: 0
 First number: Operator (+ - * /), or q to quit: Unknown operator.
 Operator (+ - * /), or q to quit:
+
+WEEK 4 NORMAL PROJECT RUN
+
+==========================================
+  RECORD CHECK - survey_small
+==========================================
+  Rows loaded       :     870.00
+  Rows expected     :    1000.00
+  Loaded - expected :    -130.00
+  Loaded percent    :      87.00 %
+  Status            :         OK
+==========================================
+
+==========================================
+  RECORD CHECK - sensor_batch
+==========================================
+  Rows loaded       :     900.00
+  Rows expected     :    1000.00
+  Loaded - expected :    -100.00
+  Loaded percent    :      90.00 %
+  Status            :    WARNING
+==========================================
+
+==========================================
+  RECORD CHECK - survey_2026
+==========================================
+  Rows loaded       :    1187.00
+  Rows expected     :    1200.00
+  Loaded - expected :     -13.00
+  Loaded percent    :      98.92 %
+  Status            :    WARNING
+==========================================
+
+==========================================
+  RECORD CHECK - complete_batch
+==========================================
+  Rows loaded       :    1200.00
+  Rows expected     :    1200.00
+  Loaded - expected :      +0.00
+  Loaded percent    :     100.00 %
+  Status            : OVER LIMIT
+==========================================
+
+==========================================
+  RECORD CHECK - extra_rows
+==========================================
+  Rows loaded       :    1250.00
+  Rows expected     :    1200.00
+  Loaded - expected :     +50.00
+  Loaded percent    :     104.17 %
+  Status            : OVER LIMIT
+==========================================
+Checked 5 records. 2 were over limit.
+
+SAVED dataset_results.txt
+survey_small,OK
+sensor_batch,WARNING
+survey_2026,WARNING
+complete_batch,OVER LIMIT
+extra_rows,OVER LIMIT
+
+
+WEEK 4 MISSING INPUT RUN
+missing.txt not found; starting with an empty list
+Checked 0 records. 0 were over limit.
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/LAB/template.py
+INPUTS: []
+EXIT: 0
+
+==========================================
+  RECORD CHECK - survey_small
+==========================================
+  Rows loaded       :     870.00
+  Rows expected     :    1000.00
+  Loaded - expected :    -130.00
+  Loaded percent    :      87.00 %
+  Status            :         OK
+==========================================
+
+==========================================
+  RECORD CHECK - sensor_batch
+==========================================
+  Rows loaded       :     900.00
+  Rows expected     :    1000.00
+  Loaded - expected :    -100.00
+  Loaded percent    :      90.00 %
+  Status            :    WARNING
+==========================================
+
+==========================================
+  RECORD CHECK - survey_2026
+==========================================
+  Rows loaded       :    1187.00
+  Rows expected     :    1200.00
+  Loaded - expected :     -13.00
+  Loaded percent    :      98.92 %
+  Status            :    WARNING
+==========================================
+
+==========================================
+  RECORD CHECK - complete_batch
+==========================================
+  Rows loaded       :    1200.00
+  Rows expected     :    1200.00
+  Loaded - expected :      +0.00
+  Loaded percent    :     100.00 %
+  Status            : OVER LIMIT
+==========================================
+
+==========================================
+  RECORD CHECK - extra_rows
+==========================================
+  Rows loaded       :    1250.00
+  Rows expected     :    1200.00
+  Loaded - expected :     +50.00
+  Loaded percent    :     104.17 %
+  Status            : OVER LIMIT
+==========================================
+Checked 5 records. 2 were over limit.
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/password_generator.py
+INPUTS: ['bad', '-1', '4', '2', '3']
+EXIT: 0
+How many letters? Enter a whole number.
+How many letters? Enter zero or more.
+How many letters? How many symbols? How many numbers? Easy version: QKSP!&949
+Shuffled version: x$q44x2)T
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/blind_auction.py
+INPUTS: ['Ada', '50', 'yes', 'Musa', '80', 'no']
+EXIT: 0
+Bidder name: Your bid: Another bidder? (yes/no): Bidder name: Your bid: Another bidder? (yes/no): Winner: Musa, bid: 80.00
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/blind_auction.py
+INPUTS: ['Ada', 'nan', 'Ada', '50', 'yes', 'Ada', 'Musa', '80', 'no']
+EXIT: 0
+Bidder name: Your bid: Enter a positive, finite bid.
+Bidder name: Your bid: Another bidder? (yes/no): Bidder name: Enter a new, nonempty name.
+Bidder name: Your bid: Another bidder? (yes/no): Winner: Musa, bid: 80.00
+
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/coffee_machine.py
+INPUTS: ['latte', '2', 'report', 'latte', '3', 'report', 'cappuccino', 'off']
+EXIT: 0
+espresso/latte/cappuccino, report, or off: Payment (cost 2.50): Not enough payment; refunded.
+espresso/latte/cappuccino, report, or off: water: 300
+milk: 200
+coffee: 100
+espresso/latte/cappuccino, report, or off: Payment (cost 2.50): Here is your latte. Change: 0.50
+espresso/latte/cappuccino, report, or off: water: 100
+milk: 50
+coffee: 76
+espresso/latte/cappuccino, report, or off: Not enough water.
+Not enough milk.
+espresso/latte/cappuccino, report, or off:
+
+FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/coffee_machine.py
+INPUTS: ['unknown', 'espresso', 'abc', 'espresso', 'nan', 'report', 'off']
+EXIT: 0
+espresso/latte/cappuccino, report, or off: Unknown drink.
+espresso/latte/cappuccino, report, or off: Payment (cost 1.50): Enter a numeric payment; order cancelled.
+espresso/latte/cappuccino, report, or off: Payment (cost 1.50): Invalid payment; order cancelled.
+espresso/latte/cappuccino, report, or off: water: 300
+milk: 200
+coffee: 100
+espresso/latte/cappuccino, report, or off:

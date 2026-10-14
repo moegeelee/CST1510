@@ -13,8 +13,10 @@ import importlib.util
 import io
 import json
 import math
+import os
 from pathlib import Path
 import random
+import shutil
 import signal
 import subprocess
 import sys
@@ -23,6 +25,7 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 SAVE_OUTPUTS = '--save-outputs' in sys.argv
+SAVE_WEEK4_OUTPUTS = '--save-week4-outputs' in sys.argv
 RESULTS = []
 TRANSCRIPTS = []
 STATS = {'notebooks': 0, 'code_cells': 0, 'expected_notebook_errors': 0}
@@ -34,6 +37,29 @@ def record(name, condition, details=''):
 
 def timeout_handler(signum, frame):
     raise TimeoutError('Execution exceeded five seconds; check for an infinite loop.')
+
+
+@contextlib.contextmanager
+def execution_workspace(path):
+    """Copy script fixtures so file-writing exercises cannot alter the repository."""
+    path = path.resolve()
+    week4 = ROOT / 'Week 04 - Lists, Dictionaries and Files'
+    base = week4 if path.is_relative_to(week4) else path.parent
+    with tempfile.TemporaryDirectory() as tmp:
+        destination = Path(tmp) / 'workspace'
+        shutil.copytree(base, destination,
+                        ignore=shutil.ignore_patterns('.git', '__pycache__', '.ipynb_checkpoints', '*.ipynb', '.DS_Store'))
+        yield destination / path.relative_to(base)
+
+
+@contextlib.contextmanager
+def working_directory(path):
+    previous = Path.cwd()
+    os.chdir(path)
+    try:
+        yield
+    finally:
+        os.chdir(previous)
 
 
 @contextlib.contextmanager
@@ -81,35 +107,37 @@ def run_notebooks():
         random.seed(1510)
         namespace = {'__name__': '__main__'}
         execution_count = 0
-        for index, cell in enumerate(nb['cells']):
-            if cell['cell_type'] != 'code':
-                continue
-            STATS['code_cells'] += 1
-            execution_count += 1
-            source = ''.join(cell.get('source', []))
-            meta = cell.get('metadata', {}).get('cst1510', {})
-            expected = meta.get('expected_error')
-            output, error, namespace, unused = run_code(
-                source, meta.get('sample_inputs', []), namespace,
-                f'{path.name}:cell-{index}')
-            actual = type(error).__name__ if error else None
-            record(f'{path.name} cell {index}', actual == expected and not unused,
-                   f'Expected: {expected or "success"}; actual: {actual or "success"}'
-                   + (f'; {error}' if error and actual != expected else '')
-                   + (f'; unused inputs: {unused}' if unused else ''))
-            if expected:
-                STATS['expected_notebook_errors'] += 1
-            if SAVE_OUTPUTS:
-                cell['execution_count'] = execution_count
-                cell['outputs'] = []
-                if output:
-                    cell['outputs'].append({'output_type': 'stream', 'name': 'stdout',
-                                            'text': output.splitlines(keepends=True)})
-                if error:
-                    cell['outputs'].append({'output_type': 'error', 'ename': actual,
-                                            'evalue': str(error),
-                                            'traceback': [f'{actual}: {error}']})
-        if SAVE_OUTPUTS:
+        save_outputs = SAVE_OUTPUTS or (SAVE_WEEK4_OUTPUTS and 'Week 04 - Lists, Dictionaries and Files' in path.parts)
+        with execution_workspace(path) as temporary_path, working_directory(temporary_path.parent):
+            for index, cell in enumerate(nb['cells']):
+                if cell['cell_type'] != 'code':
+                    continue
+                STATS['code_cells'] += 1
+                execution_count += 1
+                source = ''.join(cell.get('source', []))
+                meta = cell.get('metadata', {}).get('cst1510', {})
+                expected = meta.get('expected_error')
+                output, error, namespace, unused = run_code(
+                    source, meta.get('sample_inputs', []), namespace,
+                    f'{path.name}:cell-{index}')
+                actual = type(error).__name__ if error else None
+                record(f'{path.name} cell {index}', actual == expected and not unused,
+                       f'Expected: {expected or "success"}; actual: {actual or "success"}'
+                       + (f'; {error}' if error and actual != expected else '')
+                       + (f'; unused inputs: {unused}' if unused else ''))
+                if expected:
+                    STATS['expected_notebook_errors'] += 1
+                if save_outputs:
+                    cell['execution_count'] = execution_count
+                    cell['outputs'] = []
+                    if output:
+                        cell['outputs'].append({'output_type': 'stream', 'name': 'stdout',
+                                                'text': output.splitlines(keepends=True)})
+                    if error:
+                        cell['outputs'].append({'output_type': 'error', 'ename': actual,
+                                                'evalue': str(error),
+                                                'traceback': [f'{actual}: {error}']})
+        if save_outputs:
             nb.setdefault('metadata', {})['cst1510_execution'] = {
                 'method': 'Sequential Python exec in a fresh namespace per notebook',
                 'python_version': sys.version.split()[0],
@@ -120,9 +148,10 @@ def run_notebooks():
 
 
 def script(path, inputs=(), expected=None, contains=(), absent=()):
-    run = subprocess.run([sys.executable, str(path)],
-                         input='\n'.join(inputs) + ('\n' if inputs else ''),
-                         capture_output=True, text=True, timeout=5, cwd=path.parent)
+    with execution_workspace(path) as temporary_path:
+        run = subprocess.run([sys.executable, str(temporary_path)],
+                             input='\n'.join(inputs) + ('\n' if inputs else ''),
+                             capture_output=True, text=True, timeout=5, cwd=temporary_path.parent)
     success = (run.returncode != 0 and expected in run.stderr) if expected else run.returncode == 0
     success = success and all(s in run.stdout for s in contains)
     success = success and all(s not in run.stdout for s in absent)
@@ -242,7 +271,7 @@ def verify_optional_projects():
                 record('Week 3 chooses a random secret in 1..100','random.randint(1, 100)' in p.read_text())
             else:
                 script(p,['50','30','42'],contains=('Too high','Too low','3 guesses'))
-        else:
+        elif p.name in fixtures:
             inputs,contains=fixtures[p.name]
             script(p,inputs,contains=contains)
     pizza=next(ROOT.rglob('pizza.py'))
@@ -269,6 +298,8 @@ def main():
     verify_projects()
     verify_warmups_and_examples()
     verify_optional_projects()
+    from verify_week4 import verify_week4
+    verify_week4(sys.modules[__name__])
     failures=[r for r in RESULTS if not r['passed']]
     report={'verified_at_utc':datetime.now(timezone.utc).isoformat(),
             'python_version':sys.version.split()[0],
@@ -277,7 +308,7 @@ def main():
             'limits':['Verifies worked code, not student understanding.',
                       'Intentional errors are expected and recorded.',
                       'Normal mini-project runs assume numeric inputs and positive totals.',
-                      'CW1 brief and handwritten photos are still required.']}
+                      'CW1 brief, Week 4 handwritten photo and independent understanding checks remain outstanding.']}
     evidence=ROOT/'evidence'
     evidence.mkdir(exist_ok=True)
     (evidence/'verification.json').write_text(json.dumps(report,indent=2)+'\n')

@@ -54,7 +54,7 @@ Everything is in **`LAB/W04_Lab.ipynb`** — it runs the whole session in order.
 
 ---
 
-## Contents — 29 files
+## Supplied contents — 30 files
 
 | | What | Used |
 |---|---|---|
@@ -93,8 +93,38 @@ slot because it is a real skill in its own right, not just an extension of Files
 
 Nothing is marked this week. Everything is kept — see the CW1 specification for what accumulates and when it is submitted.
 
-| Tier | Standard | Indicative |
-|------|----------|------------|
-| Threshold | drills D1–D3 + Threshold mini-project | pass |
-| Typical | + drills D4–D6 + Typical mini-project | mid |
-| Excellent | + drill D7 + Excellent mini-project | high |
+The LAB notebook is the detailed source for the tier requirements (its drills extend beyond the original short D1–D7 summary):
+
+- Threshold: all drills D1–D16 and the Threshold mini-project.
+- Typical: add file loading in the mini-project.
+- Excellent: add lab challenges C1–C2 and the Excellent mini-project requirements.
+
+## Prepared work — 14 October 2026
+
+Worked solutions were prepared with Codex assistance for MOHAMMED MOHAMMED ALHAJI, AI / Data Science. The source download is preserved in commit `cc6b184`; the separate downloaded folder is unchanged.
+
+- All five walkthroughs: 22 Your turn exercises and five topic challenges.
+- [Lab notebook](LAB/W04_Lab.ipynb): D1–D16, C1–C2, revision explanations and verification notes.
+- [Excellent mini-project](LAB/template.py): reads [datasets.txt](LAB/datasets.txt), reports each dataset, saves [dataset_results.txt](LAB/dataset_results.txt), counts over-limit records, and handles a missing input file.
+- Three warm-ups corrected, with comments explaining their original errors.
+- [Optional example exercises](EXTRA_PRACTICE/W04_Extra_Practice.ipynb): all 12 TRY IT sections, containing 35 individual prompts.
+- Four optional projects: [banker roulette](EXTRA_PRACTICE/banker_roulette.py), [password generator](EXTRA_PRACTICE/password_generator.py), [blind auction](EXTRA_PRACTICE/blind_auction.py), and [coffee machine](EXTRA_PRACTICE/coffee_machine.py).
+
+Run notebooks from their own folders, from the top in a fresh kernel. Three Week 4 notebook cells deliberately raise errors and are labelled; read the final line, then continue. Saved outputs are automated sample runs, not a personal learning journal. The original example scripts remain unchanged; their TRY IT solutions are in the extra-practice notebook.
+
+To run the mini-project from the CST1510 repository folder:
+
+```sh
+cd "Week 04 - Lists, Dictionaries and Files/LAB"
+python3 template.py
+```
+
+The five example datasets should produce OK, WARNING, WARNING, OVER LIMIT and OVER LIMIT, with a final count of 2 out of 5. Input rows use three fields, numeric nonnegative loaded counts and positive expected counts. The loader expects simple comma-separated text without quoted commas or blank lines. Its required missing-file case is handled; other malformed data raises its normal error.
+
+The mini-project's difference is `loaded - expected`, following the Week 4 demo, and is labelled accordingly. Week 3's “rows remaining” used the reverse subtraction. D16 and C1–C2 use strict `value > limit`; the mini-project uses the demo's `percent >= 100` rule. These are separate exercise requirements.
+
+## Still needed from the student
+
+- A photo of the student's own cumulative Weeks 1–4 handwritten sheet in the designated lab cell. Earlier photos do not include Week 4.
+- Independent practice and the personal reflection about which error was most common.
+- The CW1 brief and its deadline, marking and formal submission instructions. The GitHub push alone does not establish formal university submission.

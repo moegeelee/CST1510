@@ -1,11 +1,11 @@
 {
-  "verified_at_utc": "2026-10-09T20:58:59.808300+00:00",
+  "verified_at_utc": "2026-10-14T09:06:55.672351+00:00",
   "python_version": "3.9.6",
-  "notebooks": 19,
-  "code_cells": 204,
-  "expected_notebook_errors": 10,
-  "checks": 344,
-  "passed": 344,
+  "notebooks": 26,
+  "code_cells": 291,
+  "expected_notebook_errors": 13,
+  "checks": 524,
+  "passed": 524,
   "failed": 0,
   "results": [
     {
@@ -1029,6 +1029,441 @@
       "details": "Expected: success; actual: success"
     },
     {
+      "check": "W04T01_walkthrough.ipynb cell 3",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: TypeError; actual: TypeError"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 28",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 30",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 32",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 34",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 36",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 39",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 41",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T01_walkthrough.ipynb cell 43",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 3",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 24",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 26",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 28",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T02_walkthrough.ipynb cell 30",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 3",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T03_walkthrough.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T04_walkthrough.ipynb cell 3",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T04_walkthrough.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T04_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T04_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T04_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T04_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 3",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04T05_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: TypeError; actual: TypeError"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 18",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 20",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: FileNotFoundError; actual: FileNotFoundError"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 22",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 28",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Extra_Practice.ipynb cell 30",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 8",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 10",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 12",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 21",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 23",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 25",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 28",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 30",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 33",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 35",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 38",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 41",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W04_Lab.ipynb cell 43",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
       "check": "W01_Lab.ipynb cell 18 alternate inputs ['38', '250', 'rows missing']",
       "passed": true,
       "details": ""
@@ -1384,6 +1819,21 @@
       "details": ""
     },
     {
+      "check": "Week 04 - Lists, Dictionaries and Files/LAB/warmup/01_index_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/LAB/warmup/03_file_not_found_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/LAB/warmup/02_key_error.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
       "check": "CST1510-Week2/Week2_Decisions and Loops-20260920/Week 02 - Decisions and Loops/Week 02 - Decisions and Loops/LAB/warmup/01_indentation_error.py: inputs=[]",
       "passed": true,
       "details": ""
@@ -1530,6 +1980,66 @@
     },
     {
       "check": "CST1510_Week1/Week 01 - Values, Types and Input-Output/Week 01 - Values, Types and Input-Output/04 - Input, Casting and f-strings/examples/02_fstrings.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/01 - Lists/examples/01_lists_and_indexing.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/01 - Lists/examples/02_slicing_and_mutating.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/01 - Lists/examples/03_tuples.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/01_creating_and_accessing.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/02_iterating.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/03_sets.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/03 - Files/examples/01_writing_and_reading.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/03 - Files/examples/02_line_by_line_and_split.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/04 - Handling Errors/examples/01_catching_errors.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/04 - Handling Errors/examples/02_a_safer_loader.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/05 - Putting It Together/examples/01_list_of_dicts.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/05 - Putting It Together/examples/02_load_and_process.py: inputs=[]",
       "passed": true,
       "details": ""
     },
@@ -1727,12 +2237,402 @@
       "check": "C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py: inputs=['10', '?', 'q']",
       "passed": true,
       "details": ""
+    },
+    {
+      "check": "W04 project imports without running",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 all functions have one-line docstrings",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 all console printing belongs to print_report",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 no bare except blocks",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 0/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 0/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 89.99/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 89.99/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 90/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 90/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 99.99/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 99.99/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 100/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 100/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 100.01/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 100.01/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project status boundary 1187/1200",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 project numeric results 1187/1200",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 custom warning threshold",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 documented invalid calculation bad/100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 documented invalid calculation 1/0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 loader returns five typed records with no status field",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 calculate each record exactly once",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 printed statuses follow sample data",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 result file contains exact label,status records",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 summary printed once after all reports",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 report formatting and difference direction",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 input file remains unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 missing input uses zero records",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 missing input explains fallback",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 empty input uses zero records",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 loader accepts final line without newline",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 malformed input is surfaced wrong,shape",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 malformed input is surfaced label,abc,100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/LAB/template.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 4 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 6 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 8 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 10 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 12 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 14 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 17 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 19 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 21 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 23 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 25 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 28 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 30 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 33 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 35 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 38 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 41 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab cell 43 matches required output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab C2 actual file contents",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 lab D12 actual file contents",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 D16 equality is OK under its strict rule",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 D4 requested tuple error reproduced",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 PermissionError handler returns empty text with message",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 safer loader skips bad shape and bad numeric value",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 two-field loader returns typed rents",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 banker demonstrates both selection methods",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 password requested character counts (4, 2, 3) shuffled=False",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 password requested character counts (4, 2, 3) shuffled=True",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 password requested character counts (0, 0, 0) shuffled=False",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 password requested character counts (0, 0, 0) shuffled=True",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 password requested character counts (0, 1, 0) shuffled=False",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 password requested character counts (0, 1, 0) shuffled=True",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/password_generator.py: inputs=['bad', '-1', '4', '2', '3']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 auction highest bid and tie policy",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/blind_auction.py: inputs=['Ada', '50', 'yes', 'Musa', '80', 'no']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/blind_auction.py: inputs=['Ada', 'nan', 'Ada', '50', 'yes', 'Ada', 'Musa', '80', 'no']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 resource check is read-only",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 paid latte deducts exact ingredients",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/coffee_machine.py: inputs=['latte', '2', 'report', 'latte', '3', 'report', 'cappuccino', 'off']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/coffee_machine.py: inputs=['unknown', 'espresso', 'abc', 'espresso', 'nan', 'report', 'off']",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 all 22 Your turn cells contain executable answers",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 walkthrough titles match their topic folders",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W04 photo honestly remains pending",
+      "passed": true,
+      "details": ""
     }
   ],
   "limits": [
     "Verifies worked code, not student understanding.",
     "Intentional errors are expected and recorded.",
     "Normal mini-project runs assume numeric inputs and positive totals.",
-    "CW1 brief and handwritten photos are still required."
+    "CW1 brief, Week 4 handwritten photo and independent understanding checks remain outstanding."
   ]
 }

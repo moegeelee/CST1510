@@ -1,26 +1,27 @@
 {
   "student": "MOHAMMED MOHAMMED ALHAJI",
-  "scope": "Supplied Weeks 1–3 only",
+  "scope": "Supplied Weeks 1–4 only",
   "repository": "https://github.com/moegeelee/CST1510",
-  "prepared_on": "2026-10-10",
-  "your_turn_prompts": 52,
-  "topic_challenges": 12,
-  "lab_drills": 29,
-  "lab_challenges": 2,
-  "mini_projects": 3,
-  "warmup_files": 9,
-  "optional_example_sections": 26,
-  "extra_projects": 9,
+  "prepared_on": "2026-10-14",
+  "your_turn_prompts": 74,
+  "topic_challenges": 17,
+  "lab_drills": 45,
+  "lab_challenges": 4,
+  "mini_projects": 4,
+  "warmup_files": 12,
+  "optional_example_sections": 38,
+  "extra_projects": 13,
   "code_verified": true,
   "understanding_verified": false,
   "cw1_brief_received": false,
   "university_submission_confirmed": false,
   "cheat_sheet_photos_received": true,
   "baseline_commit": "f522210",
-  "remote_push_verified": true,
+  "remote_push_verified": false,
   "pending": [
     "CW1 brief, rubric, deadline, AI rules and destination",
     "Review handwritten note corrections and the requested cumulative-sheet layout",
+    "Add the cumulative Weeks 1–4 handwritten-note photo to the Week 4 lab",
     "Requested personal reflections and peer demonstrations",
     "Independent understanding checks",
     "Formal submission receipt"
@@ -73,5 +74,31 @@
         "week-03-continuation.jpg"
       ]
     }
-  ]
+  ],
+  "week4": {
+    "source_baseline_commit": "cc6b184",
+    "your_turn_prompts": 22,
+    "topic_challenges": 5,
+    "lab_drills": 16,
+    "lab_challenges": 2,
+    "mini_project_tier": "Excellent",
+    "warmups": 3,
+    "optional_example_sections": 12,
+    "optional_example_prompts": 35,
+    "extra_projects": 4,
+    "code_verified": true,
+    "handwritten_photo_received": false,
+    "understanding_verified": false,
+    "input_data": "Week 04 - Lists, Dictionaries and Files/LAB/datasets.txt",
+    "output_data": "Week 04 - Lists, Dictionaries and Files/LAB/dataset_results.txt",
+    "push_verified": false
+  },
+  "verification": {
+    "checks": 524,
+    "passed": 524,
+    "failed": 0,
+    "notebooks": 26,
+    "code_cells": 291,
+    "intentional_notebook_errors": 13
+  }
 }
