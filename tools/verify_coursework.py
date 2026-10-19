@@ -26,6 +26,8 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 SAVE_OUTPUTS = '--save-outputs' in sys.argv
 SAVE_WEEK4_OUTPUTS = '--save-week4-outputs' in sys.argv
+SAVE_WEEK5_OUTPUTS = '--save-week5-outputs' in sys.argv
+WEEK5_LAB = ROOT / 'Week 05 - Classes and Objects' / 'LAB'
 RESULTS = []
 TRANSCRIPTS = []
 STATS = {'notebooks': 0, 'code_cells': 0, 'expected_notebook_errors': 0}
@@ -99,6 +101,9 @@ def run_notebooks():
     for path in sorted(ROOT.rglob('*.ipynb')):
         if '.ipynb_checkpoints' in path.parts:
             continue
+        if path.is_relative_to(WEEK5_LAB):
+            # Only Week 5 walkthroughs are completed; the supplied lab is still a scaffold.
+            continue
         nb = json.loads(path.read_text())
         if path.name == 'START_HERE.ipynb':
             # This orientation notebook intentionally contains unanswered practice.
@@ -108,6 +113,7 @@ def run_notebooks():
         namespace = {'__name__': '__main__'}
         execution_count = 0
         save_outputs = SAVE_OUTPUTS or (SAVE_WEEK4_OUTPUTS and 'Week 04 - Lists, Dictionaries and Files' in path.parts)
+        save_outputs = save_outputs or (SAVE_WEEK5_OUTPUTS and 'Week 05 - Classes and Objects' in path.parts)
         with execution_workspace(path) as temporary_path, working_directory(temporary_path.parent):
             for index, cell in enumerate(nb['cells']):
                 if cell['cell_type'] != 'code':
@@ -232,6 +238,8 @@ def verify_projects():
 
 def verify_warmups_and_examples():
     for p in ROOT.rglob('warmup/*.py'):
+        if p.is_relative_to(WEEK5_LAB):
+            continue  # Supplied, deliberately broken Week 5 lab exercises remain pending.
         inputs=['23.7'] if 'input(' in p.read_text() else []
         script(p,inputs)
     fixtures={
@@ -300,6 +308,8 @@ def main():
     verify_optional_projects()
     from verify_week4 import verify_week4
     verify_week4(sys.modules[__name__])
+    from verify_week5 import verify_week5
+    verify_week5(sys.modules[__name__])
     failures=[r for r in RESULTS if not r['passed']]
     report={'verified_at_utc':datetime.now(timezone.utc).isoformat(),
             'python_version':sys.version.split()[0],
@@ -310,6 +320,7 @@ def main():
                       'Normal mini-project runs assume numeric inputs and positive totals.',
                       'CW1 brief reviewed; final Moodle deadline, submission and receipt remain unconfirmed.',
                       'Week 4 handwritten photos are present, but topic coverage and cumulative-sheet layout remain incomplete.',
+                      'Week 5 verification covers walkthroughs and supplied examples; the lab, warm-ups and mini-project are not completed or verified.',
                       'Independent understanding checks remain in progress.']}
     evidence=ROOT/'evidence'
     evidence.mkdir(exist_ok=True)

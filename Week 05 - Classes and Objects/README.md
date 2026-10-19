@@ -83,3 +83,25 @@ Nothing is marked this week. Everything is kept — see the CW1 specification fo
 | Threshold | drills D1–D3 + Threshold mini-project | pass |
 | Typical | + drills D4–D6 + Typical mini-project | mid |
 | Excellent | + drill D7 + Excellent mini-project | high |
+
+## Walkthrough work — 19 October 2026
+
+The three walkthroughs contain worked answers, prepared with assistance, for all 11 Your turn tasks and three challenges:
+
+- [Classes and Objects](01%20-%20Classes%20and%20Objects/W05T01_walkthrough.ipynb): creating objects, storing attributes, changing one object, dictionary access compared with dot access, and explaining `self`.
+- [Methods](02%20-%20Methods/W05T02_walkthrough.ipynb): returning percentages, calling methods on different objects, status decisions, and resetting a counter.
+- [Many Objects Together](03%20-%20Many%20Objects%20Together/W05T03_walkthrough.ipynb): filtering a list of objects, counting over-limit records, loading objects from a file and printing a final summary.
+
+Open each notebook from its own folder and run it from the top in a fresh kernel. Every answer has saved sample output where the code prints something. Sample output is not evidence of independent student practice.
+
+The third topic includes two invented data files, [my_records.txt](03%20-%20Many%20Objects%20Together/my_records.txt) and [datasets.txt](03%20-%20Many%20Objects%20Together/datasets.txt). Its final challenge prints `2 of 3 were over limit`. The answer cells recreate these files when run.
+
+The Methods notebook uses three status bands: below 90% is OK, 90% to below 100% is WARNING, and 100% or more is OVER LIMIT. The Many Objects notebook follows its supplied two-status example: below 100% is OK, and 100% or more is OVER LIMIT.
+
+Three points to keep clear:
+
+- `self` is the usual first-parameter name for an instance method. Two different objects can store separate data; two variables assigned the same object still share it.
+- An ordinary function can also change an object it receives. Assigning a different value to a local variable does not reassign the caller's variable.
+- The optional shared counter adds one for every over-limit `status()` call, including repeated calls on the same record. The final challenge uses a separate running total and a `status()` method that does not change counters.
+
+The original download is preserved in commit `075b5a7`. The lab notebook, warm-ups, mini-project and handwritten Week 5 notes remain supplied exercises to complete; they are not marked as completed by this walkthrough work.

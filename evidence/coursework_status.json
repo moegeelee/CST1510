@@ -1,10 +1,10 @@
 {
   "student": "MOHAMMED MOHAMMED ALHAJI",
-  "scope": "Supplied Weeks 1–4 only",
+  "scope": "Completed Weeks 1–4 work and Week 5 walkthroughs; Week 5 lab remains pending",
   "repository": "https://github.com/moegeelee/CST1510",
   "prepared_on": "2026-10-14",
-  "your_turn_prompts": 74,
-  "topic_challenges": 17,
+  "your_turn_prompts": 85,
+  "topic_challenges": 20,
   "lab_drills": 45,
   "lab_challenges": 4,
   "mini_projects": 4,
@@ -22,7 +22,7 @@
     "Confirm the CW1 exact deadline and live Moodle submission link",
     "Review handwritten corrections and the required cumulative Cheat Sheet / numbered-box layout",
     "Complete the student's own Week 4 handwritten coverage and add an updated photo",
-    "Complete Weeks 5–7 when supplied",
+    "Complete Week 5 lab, warm-ups, mini-project and handwritten notes; complete Weeks 6–7 when supplied",
     "Requested personal reflections and peer demonstrations",
     "Independent understanding checks",
     "Formal CW1 submission receipt"
@@ -175,13 +175,13 @@
     "last_code_verification_utc": "2026-10-19T05:25:16.693492+00:00"
   },
   "verification": {
-    "checks": 524,
-    "passed": 524,
+    "checks": 593,
+    "passed": 593,
     "failed": 0,
-    "notebooks": 26,
-    "code_cells": 291,
+    "notebooks": 29,
+    "code_cells": 317,
     "intentional_notebook_errors": 13,
-    "verified_at_utc": "2026-10-19T05:25:16.693492+00:00"
+    "verified_at_utc": "2026-10-19T10:58:27.602491+00:00"
   },
   "last_reviewed_on": "2026-10-19",
   "cw1": {
@@ -205,5 +205,24 @@
       "learning_evidence_and_portfolio_completion": 10
     }
   },
-  "tutoring_checkpoint": "Dictionary keys, updates, get(), items() and variable assignment practised. Combining a condition with a running total and placing the final print outside the loop still need independent practice."
+  "tutoring_checkpoint": "Dictionary keys, updates, get(), items() and variable assignment practised. Combining a condition with a running total and placing the final print outside the loop still need independent practice.",
+  "week5": {
+    "source_baseline_commit": "075b5a7",
+    "scope": "Three walkthroughs only, plus supplied example execution checks",
+    "your_turn_prompts": 11,
+    "topic_challenges": 3,
+    "walkthrough_notebooks": 3,
+    "walkthrough_code_cells": 26,
+    "walkthroughs_code_verified": true,
+    "verified_at_utc": "2026-10-19T10:58:27.602491+00:00",
+    "lab_completed": false,
+    "warmups_completed": false,
+    "mini_project_completed": false,
+    "handwritten_photo_received": false,
+    "understanding_verified": false,
+    "data_files": [
+      "Week 05 - Classes and Objects/03 - Many Objects Together/my_records.txt",
+      "Week 05 - Classes and Objects/03 - Many Objects Together/datasets.txt"
+    ]
+  }
 }

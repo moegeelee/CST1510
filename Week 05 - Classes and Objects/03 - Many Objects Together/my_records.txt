@@ -1,0 +1,3 @@
+survey_a,870,1000
+survey_b,1200,1000
+survey_c,450,1000

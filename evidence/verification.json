@@ -1,11 +1,11 @@
 {
-  "verified_at_utc": "2026-10-19T05:25:16.693492+00:00",
+  "verified_at_utc": "2026-10-19T10:58:27.602491+00:00",
   "python_version": "3.12.14",
-  "notebooks": 26,
-  "code_cells": 291,
+  "notebooks": 29,
+  "code_cells": 317,
   "expected_notebook_errors": 13,
-  "checks": 524,
-  "passed": 524,
+  "checks": 593,
+  "passed": 593,
   "failed": 0,
   "results": [
     {
@@ -1464,6 +1464,136 @@
       "details": "Expected: success; actual: success"
     },
     {
+      "check": "W05T01_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T01_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 4",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 6",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 13",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 15",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 17",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T02_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 2",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 5",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 7",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 9",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 11",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 14",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 16",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
+      "check": "W05T03_walkthrough.ipynb cell 19",
+      "passed": true,
+      "details": "Expected: success; actual: success"
+    },
+    {
       "check": "W01_Lab.ipynb cell 18 alternate inputs ['38', '250', 'rows missing']",
       "passed": true,
       "details": ""
@@ -2040,6 +2170,36 @@
     },
     {
       "check": "Week 04 - Lists, Dictionaries and Files/05 - Putting It Together/examples/02_load_and_process.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 05 - Classes and Objects/01 - Classes and Objects/examples/01_classes_and_init.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 05 - Classes and Objects/01 - Classes and Objects/examples/02_self_explained.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 05 - Classes and Objects/02 - Methods/examples/01_defining_methods.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 05 - Classes and Objects/02 - Methods/examples/02_methods_that_change_state.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 05 - Classes and Objects/03 - Many Objects Together/examples/01_a_list_of_objects.py: inputs=[]",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Week 05 - Classes and Objects/03 - Many Objects Together/examples/02_loading_objects_from_a_file.py: inputs=[]",
       "passed": true,
       "details": ""
     },
@@ -2627,6 +2787,191 @@
       "check": "W04 supplied photos are embedded in order with remaining coverage pending",
       "passed": true,
       "details": ""
+    },
+    {
+      "check": "W05 all 11 Your turn tasks and 3 challenges have answers",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 constructor stores all three server attributes",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 separate server instances keep independent numeric attributes",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 challenge stores separate record labels and numbers",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 percent returns a computed number for an unfamiliar ratio",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 adding percent preserves summary for the following cells",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status boundary 0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status boundary 89.99",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status boundary 90",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status boundary 99.99",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status boundary 100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status boundary 120",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 server status calls percent exactly once",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status boundary 0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status boundary 89.99",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status boundary 90",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status boundary 99.99",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status boundary 100",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status boundary 120",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 record status calls percent exactly once",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 methods read the current object attributes after an update",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 Checker uses its required strict greater-than rule",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 Checker counts qualifying calls only",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 reset clears only its own checker",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 a checker still works after reset",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 optional shared counter counts calls, including repeat calls",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 list-of-objects challenge includes exactly 100 percent as over limit",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 challenge status does not change state on repeated calls",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 loader returns three actual Record objects with converted numbers",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 challenge dataset gives two out of three over limit",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 loader returns an empty list for an empty file",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 loader accepts a final line without a newline",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 loader surfaces a missing file, as in the supplied example",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 Topic 3 answer cell 5 has the requested output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 Topic 3 answer cell 9 has the requested output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 Topic 3 answer cell 16 has the requested output",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "W05 Topic 3 answer cell 19 has the requested output",
+      "passed": true,
+      "details": ""
     }
   ],
   "limits": [
@@ -2635,6 +2980,7 @@
     "Normal mini-project runs assume numeric inputs and positive totals.",
     "CW1 brief reviewed; final Moodle deadline, submission and receipt remain unconfirmed.",
     "Week 4 handwritten photos are present, but topic coverage and cumulative-sheet layout remain incomplete.",
+    "Week 5 verification covers walkthroughs and supplied examples; the lab, warm-ups and mini-project are not completed or verified.",
     "Independent understanding checks remain in progress."
   ]
 }
