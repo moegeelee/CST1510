@@ -235,6 +235,13 @@
     "photo_source_filename": "IMG_6397.HEIC",
     "photo_source_sha256": "2313310c244ad78752ee6f275fccb217496e6dd6d8d7aa549ed0c79e971fb9be",
     "photo_jpeg_sha256": "26bf9089e358cd74302ac5476fadfa970b87f7ad22c14d230e3d5a8102ec2202",
-    "photo_reviewed_on": "2026-10-19"
+    "photo_reviewed_on": "2026-10-19",
+    "github_readable_walkthrough_previews": [
+      "Week 05 - Classes and Objects/01 - Classes and Objects/README.md",
+      "Week 05 - Classes and Objects/02 - Methods/README.md",
+      "Week 05 - Classes and Objects/03 - Many Objects Together/README.md"
+    ],
+    "github_note_image_display_verified_on": "2026-10-19",
+    "github_note_image_verified_content_commit": "9de00f48531e3269c283c0f8c661659e178ab2d8"
   }
 }

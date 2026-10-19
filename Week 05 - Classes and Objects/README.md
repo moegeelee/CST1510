@@ -8,6 +8,14 @@
 
 The same photo is included at the end of each walkthrough notebook.
 
+Read the completed walkthroughs directly on GitHub:
+
+- [Classes and Objects](01%20-%20Classes%20and%20Objects/README.md)
+- [Methods](02%20-%20Methods/README.md)
+- [Many Objects Together](03%20-%20Many%20Objects%20Together/README.md)
+
+These previews show the saved answers, outputs and photo. The runnable notebooks are linked inside each preview.
+
 ---
 
 ## By the end of this week you can
