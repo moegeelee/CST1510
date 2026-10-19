@@ -15,7 +15,7 @@ Start with **[START_HERE.ipynb](START_HERE.ipynb)**. It links every topic, lab, 
 
 Week 4 is in **[Week 04 - Lists, Dictionaries and Files](Week%2004%20-%20Lists%2C%20Dictionaries%20and%20Files/README.md)**. Its mini-project loads `LAB/datasets.txt` and saves `LAB/dataset_results.txt`; run it from the LAB folder.
 
-Week 5 is in **[Week 05 - Classes and Objects](Week%2005%20-%20Classes%20and%20Objects/README.md)**. Its three walkthroughs have 11 Your turn answers, three challenges and saved sample outputs. The Week 5 lab, warm-ups, mini-project and handwritten notes are still pending.
+Week 5 is in **[Week 05 - Classes and Objects](Week%2005%20-%20Classes%20and%20Objects/README.md)**. Its three walkthroughs have 11 Your turn answers, three challenges and saved sample outputs. The supplied Week 5 lecture-note photo is displayed in that README and at the end of each walkthrough. The separate Week 5 lab, warm-ups, mini-project and full cumulative Cheat Sheet remain pending.
 
 Each week's mini-project is its `LAB/template.py`. Use the links in the starting notebook to find the correct version. The original folder layout is preserved.
 

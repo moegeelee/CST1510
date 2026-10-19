@@ -218,11 +218,23 @@
     "lab_completed": false,
     "warmups_completed": false,
     "mini_project_completed": false,
-    "handwritten_photo_received": false,
+    "handwritten_photo_received": true,
     "understanding_verified": false,
     "data_files": [
       "Week 05 - Classes and Objects/03 - Many Objects Together/my_records.txt",
       "Week 05 - Classes and Objects/03 - Many Objects Together/datasets.txt"
-    ]
+    ],
+    "walkthrough_photo": "Week 05 - Classes and Objects/notes/IMG_6397.jpg",
+    "walkthrough_photo_embedded_in": [
+      "Week 05 - Classes and Objects/01 - Classes and Objects/W05T01_walkthrough.ipynb",
+      "Week 05 - Classes and Objects/02 - Methods/W05T02_walkthrough.ipynb",
+      "Week 05 - Classes and Objects/03 - Many Objects Together/W05T03_walkthrough.ipynb"
+    ],
+    "handwritten_photo_embedded_in_lab": false,
+    "handwritten_topic_coverage_complete": false,
+    "photo_source_filename": "IMG_6397.HEIC",
+    "photo_source_sha256": "2313310c244ad78752ee6f275fccb217496e6dd6d8d7aa549ed0c79e971fb9be",
+    "photo_jpeg_sha256": "26bf9089e358cd74302ac5476fadfa970b87f7ad22c14d230e3d5a8102ec2202",
+    "photo_reviewed_on": "2026-10-19"
   }
 }

@@ -2,6 +2,12 @@
 
 **Box we build this week:** `component` — see `../system_diagram.md`
 
+## My Week 5 lecture notes
+
+<img src="notes/IMG_6397.jpg" alt="My handwritten Week 5 lecture notes" width="550">
+
+The same photo is included at the end of each walkthrough notebook.
+
 ---
 
 ## By the end of this week you can
