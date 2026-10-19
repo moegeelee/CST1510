@@ -50,8 +50,9 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and I
 INPUTS: ['zero_total', '1', '0']
 EXIT: 1
 Dataset name: Rows loaded: Rows expected: Traceback (most recent call last):
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmp5lkpm4sv/workspace/template.py", line 19, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpn65n1a7c/workspace/template.py", line 19, in <module>
     loaded_percent = (rows_loaded / rows_expected) * 100
+                      ~~~~~~~~~~~~^~~~~~~~~~~~~~~
 ZeroDivisionError: float division by zero
 
 
@@ -59,8 +60,9 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510_Week1/Week 01 - Values, Types and I
 INPUTS: ['bad_input', 'abc']
 EXIT: 1
 Dataset name: Rows loaded: Traceback (most recent call last):
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpg_vu7w1w/workspace/template.py", line 14, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpkbwbvirc/workspace/template.py", line 14, in <module>
     rows_loaded = float(input("Rows loaded: "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: could not convert string to float: 'abc'
 
 
@@ -131,8 +133,9 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-202
 INPUTS: ['zero_total', '1', '0']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Rows expected: Traceback (most recent call last):
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpq7jaogkk/workspace/template.py", line 23, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpz8d8nvxr/workspace/template.py", line 23, in <module>
     loaded_percent = (rows_loaded / rows_expected) * 100
+                      ~~~~~~~~~~~~^~~~~~~~~~~~~~~
 ZeroDivisionError: float division by zero
 
 
@@ -140,8 +143,9 @@ FILE: /Users/mwave/Downloads/CST1510/CST1510-Week2/Week2_Decisions and Loops-202
 INPUTS: ['bad_input', 'abc']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Traceback (most recent call last):
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpkeel9gnj/workspace/template.py", line 20, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmp0wes7xfg/workspace/template.py", line 20, in <module>
     rows_loaded = float(input("Rows loaded: "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: could not convert string to float: 'abc'
 
 
@@ -255,10 +259,12 @@ FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modu
 INPUTS: ['zero_total', '1', '0']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Rows expected: Traceback (most recent call last):
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpw6os5v5k/workspace/template.py", line 53, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpkivwxg8l/workspace/template.py", line 53, in <module>
     rows_remaining, loaded_percent = check(rows_loaded, rows_expected)
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpw6os5v5k/workspace/template.py", line 25, in check
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpkivwxg8l/workspace/template.py", line 25, in check
     percent = (value / limit) * 100
+               ~~~~~~^~~~~~~
 ZeroDivisionError: float division by zero
 
 
@@ -266,8 +272,9 @@ FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modu
 INPUTS: ['bad_input', 'abc']
 EXIT: 1
 Dataset name (or 'quit'): Rows loaded: Traceback (most recent call last):
-  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpj7a55cp1/workspace/template.py", line 51, in <module>
+  File "/var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpzabr8ohp/workspace/template.py", line 51, in <module>
     rows_loaded = float(input("Rows loaded: "))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: could not convert string to float: 'abc'
 
 
@@ -509,11 +516,11 @@ EXIT: 0
 3.141592653589793
 5
 4
-2
+5
 OK
 22.825 22.9
 ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
-2026-10-14T13:06:54.638228
+2026-10-19T09:25:15.642888
 
 
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/04 - Modules/examples/02_from_import.py
@@ -945,14 +952,14 @@ limit: 100.0
 FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/02 - Dictionaries/examples/03_sets.py
 INPUTS: []
 EXIT: 0
-{'R-002', 'R-001', 'R-003'}
+{'R-001', 'R-002', 'R-003'}
 3
 <class 'dict'>
 <class 'set'>
 True
 False
-R-002
 R-001
+R-002
 R-003
 {'10.0.0.5', '10.0.0.9'}
 {'10.0.0.6'}
@@ -1084,7 +1091,7 @@ False
 True
 
 
-FILE: /var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpw7v8f9cn/importer.py
+FILE: /var/folders/f7/500t6tmx3s1395_kw2qtnqwr0000gn/T/tmpe09bw5bd/importer.py
 INPUTS: []
 EXIT: 0
 temporary unguarded print
@@ -1109,8 +1116,8 @@ Total bill: Number of people: Tip percentage: Each person should pay: $33.60
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/rock_paper_scissors.py
 INPUTS: ['rock']
 EXIT: 0
-Rock, paper or scissors? Computer: scissors
-Winner: user
+Rock, paper or scissors? Computer: paper
+Winner: computer
 
 
 FILE: /Users/mwave/Downloads/CST1510/C ST1510_Week3/Week 03 - Functions and Modules/EXTRA_PRACTICE/calculator.py
@@ -1361,8 +1368,8 @@ INPUTS: ['bad', '-1', '4', '2', '3']
 EXIT: 0
 How many letters? Enter a whole number.
 How many letters? Enter zero or more.
-How many letters? How many symbols? How many numbers? Easy version: QKSP!&949
-Shuffled version: x$q44x2)T
+How many letters? How many symbols? How many numbers? Easy version: stAi+*217
+Shuffled version: #1#9Ud8lk
 
 
 FILE: /Users/mwave/Downloads/CST1510/Week 04 - Lists, Dictionaries and Files/EXTRA_PRACTICE/blind_auction.py

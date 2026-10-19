@@ -123,8 +123,15 @@ The five example datasets should produce OK, WARNING, WARNING, OVER LIMIT and OV
 
 The mini-project's difference is `loaded - expected`, following the Week 4 demo, and is labelled accordingly. Week 3's “rows remaining” used the reverse subtraction. D16 and C1–C2 use strict `value > limit`; the mini-project uses the demo's `percent >= 100` rule. These are separate exercise requirements.
 
+## Photo review — 19 October 2026
+
+Six supplied handwritten pages (`IMG_6296`–`IMG_6301`) are embedded in the designated lab photo cell, in order from Week 1 through Week 4. JPEG copies make the existing handwriting readable in the notebook; the original HEIC files remain unchanged in Downloads.
+
+The two Week 4 pages contain notes on lists, indexing, mutation, tuples, dictionary keys and values, and sets. The remaining Week 4 topics and the cumulative Cheat Sheet / numbered-box layout are still to be completed by the student. A photo being present does not establish that the full sheet requirement has been met.
+
 ## Still needed from the student
 
-- A photo of the student's own cumulative Weeks 1–4 handwritten sheet in the designated lab cell. Earlier photos do not include Week 4.
+- Complete handwritten Week 4 coverage of comprehensions, dictionary iteration and `zip()`, files, named exceptions, and lists of dictionaries, then add a new photo in the lab's photo cell.
+- Review the existing handwritten corrections and the required cumulative-sheet layout.
 - Independent practice and the personal reflection about which error was most common.
-- The CW1 brief and its deadline, marking and formal submission instructions. The GitHub push alone does not establish formal university submission.
+- Confirm the CW1 deadline and live Moodle submission link. The reviewed CW1 brief requires Weeks 1–7 and submission of the repository link through Moodle; this Week 4 push does not finish CW1.

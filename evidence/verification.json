@@ -1,6 +1,6 @@
 {
-  "verified_at_utc": "2026-10-14T09:06:55.672351+00:00",
-  "python_version": "3.9.6",
+  "verified_at_utc": "2026-10-19T05:25:16.693492+00:00",
+  "python_version": "3.12.14",
   "notebooks": 26,
   "code_cells": 291,
   "expected_notebook_errors": 13,
@@ -2624,7 +2624,7 @@
       "details": ""
     },
     {
-      "check": "W04 photo honestly remains pending",
+      "check": "W04 supplied photos are embedded in order with remaining coverage pending",
       "passed": true,
       "details": ""
     }
@@ -2633,6 +2633,8 @@
     "Verifies worked code, not student understanding.",
     "Intentional errors are expected and recorded.",
     "Normal mini-project runs assume numeric inputs and positive totals.",
-    "CW1 brief, Week 4 handwritten photo and independent understanding checks remain outstanding."
+    "CW1 brief reviewed; final Moodle deadline, submission and receipt remain unconfirmed.",
+    "Week 4 handwritten photos are present, but topic coverage and cumulative-sheet layout remain incomplete.",
+    "Independent understanding checks remain in progress."
   ]
 }

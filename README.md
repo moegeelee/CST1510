@@ -33,11 +33,17 @@ python3 tools/verify_coursework.py
 
 The verification helper uses more advanced Python than the coursework; it is support tooling, not an exercise answer. The coursework itself follows the supplied weekly constraints. File-writing checks use temporary copies so verification does not overwrite coursework data. To refresh only Week 4 notebook sample outputs, add `--save-week4-outputs`.
 
+## Coursework and photos reviewed — 19 October 2026
+
+The CW1 specification has been reviewed. It covers Weeks 1–7, contributes 50% of the module mark, and asks for each week's completed lab notebook, mini-project and handwritten Cheat Sheet photo. The final repository link must be submitted through Moodle. The exact deadline and live submission link still need confirmation.
+
+Six newer handwritten-note photos, `IMG_6296`–`IMG_6301`, are now embedded in the Week 4 lab notebook in topic order: Week 1, Week 2, Week 2 continuation / Week 3, Week 3 continuation, Week 4 lists and tuples, then Week 4 dictionaries and sets. The original handwriting is unchanged. These are supplied pages, not separate dated snapshots of each lab.
+
 ## Remaining work
 
-- Obtain and check the CW1 assessment brief, marking rubric, deadline and submission instructions.
-- Review the handwritten note corrections and requested cumulative-sheet layout; the four supplied photos are now embedded in the lab notebooks.
-- Add the missing cumulative Weeks 1–4 handwritten-notes photo to the Week 4 lab notebook.
+- Confirm the CW1 deadline and live Moodle submission link, and complete Weeks 5–7 when supplied.
+- Review handwritten corrections and the required cumulative Cheat Sheet / numbered-box layout.
+- Finish the student's own Week 4 notes and add a new photo. The supplied Week 4 pages do not yet cover comprehensions, dictionary iteration and `zip()`, file handling, named exceptions, or lists of dictionaries.
 - Complete the requested personal reflections and demonstrations.
 - Demonstrate understanding by solving fresh problems without the worked answers.
 - Complete the required university submission and retain its confirmation.

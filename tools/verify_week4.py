@@ -185,4 +185,16 @@ def verify_week4(v):
                 if ast.parse(''.join(following['source'])).body: answered += 1
     check('W04 all 22 Your turn cells contain executable answers', prompt_count == answered == 22)
     check('W04 walkthrough titles match their topic folders', titles_match)
-    check('W04 photo honestly remains pending', 'Pending:' in ''.join(nb['cells'][47]['source']) and not nb['cells'][47].get('attachments'))
+    photo_cell = nb['cells'][47]
+    photo_names = [
+        'week-01-IMG_6296.jpg', 'week-02-IMG_6297.jpg',
+        'week-02-03-IMG_6298.jpg', 'week-03-IMG_6299.jpg',
+        'week-04-lists-IMG_6300.jpg', 'week-04-dictionaries-IMG_6301.jpg',
+    ]
+    photo_source = ''.join(photo_cell['source'])
+    check('W04 supplied photos are embedded in order with remaining coverage pending',
+          set(photo_cell.get('attachments', {})) == set(photo_names)
+          and all('attachment:' + name in photo_source for name in photo_names)
+          and [photo_source.index('attachment:' + name) for name in photo_names]
+              == sorted(photo_source.index('attachment:' + name) for name in photo_names)
+          and 'Pending:' in photo_source)

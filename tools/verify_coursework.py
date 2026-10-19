@@ -308,7 +308,9 @@ def main():
             'limits':['Verifies worked code, not student understanding.',
                       'Intentional errors are expected and recorded.',
                       'Normal mini-project runs assume numeric inputs and positive totals.',
-                      'CW1 brief, Week 4 handwritten photo and independent understanding checks remain outstanding.']}
+                      'CW1 brief reviewed; final Moodle deadline, submission and receipt remain unconfirmed.',
+                      'Week 4 handwritten photos are present, but topic coverage and cumulative-sheet layout remain incomplete.',
+                      'Independent understanding checks remain in progress.']}
     evidence=ROOT/'evidence'
     evidence.mkdir(exist_ok=True)
     (evidence/'verification.json').write_text(json.dumps(report,indent=2)+'\n')

@@ -13,18 +13,19 @@
   "extra_projects": 13,
   "code_verified": true,
   "understanding_verified": false,
-  "cw1_brief_received": false,
+  "cw1_brief_received": true,
   "university_submission_confirmed": false,
   "cheat_sheet_photos_received": true,
   "baseline_commit": "f522210",
   "remote_push_verified": true,
   "pending": [
-    "CW1 brief, rubric, deadline, AI rules and destination",
-    "Review handwritten note corrections and the requested cumulative-sheet layout",
-    "Add the cumulative Weeks 1–4 handwritten-note photo to the Week 4 lab",
+    "Confirm the CW1 exact deadline and live Moodle submission link",
+    "Review handwritten corrections and the required cumulative Cheat Sheet / numbered-box layout",
+    "Complete the student's own Week 4 handwritten coverage and add an updated photo",
+    "Complete Weeks 5–7 when supplied",
     "Requested personal reflections and peer demonstrations",
     "Independent understanding checks",
-    "Formal submission receipt"
+    "Formal CW1 submission receipt"
   ],
   "verified_coursework_commit": "473567f5da5e830ea2350f93cb3014cf2d275081",
   "cheat_sheet_photos_embedded": true,
@@ -73,6 +74,28 @@
         "week-02-03-notes.jpg",
         "week-03-continuation.jpg"
       ]
+    },
+    {
+      "week": 4,
+      "notebook": "Week 04 - Lists, Dictionaries and Files/LAB/W04_Lab.ipynb",
+      "cell_index": 47,
+      "original_filenames": [
+        "IMG_6296.HEIC",
+        "IMG_6297.HEIC",
+        "IMG_6298.HEIC",
+        "IMG_6299.HEIC",
+        "IMG_6300.HEIC",
+        "IMG_6301.HEIC"
+      ],
+      "attachment_names": [
+        "week-01-IMG_6296.jpg",
+        "week-02-IMG_6297.jpg",
+        "week-02-03-IMG_6298.jpg",
+        "week-03-IMG_6299.jpg",
+        "week-04-lists-IMG_6300.jpg",
+        "week-04-dictionaries-IMG_6301.jpg"
+      ],
+      "topic_coverage_complete": false
     }
   ],
   "week4": {
@@ -87,13 +110,69 @@
     "optional_example_prompts": 35,
     "extra_projects": 4,
     "code_verified": true,
-    "handwritten_photo_received": false,
+    "handwritten_photo_received": true,
     "understanding_verified": false,
     "input_data": "Week 04 - Lists, Dictionaries and Files/LAB/datasets.txt",
     "output_data": "Week 04 - Lists, Dictionaries and Files/LAB/dataset_results.txt",
     "push_verified": true,
     "verified_content_commit": "473567f5da5e830ea2350f93cb3014cf2d275081",
-    "remote_verification_utc": "2026-10-14T09:08:13.371522+00:00"
+    "remote_verification_utc": "2026-10-14T09:08:13.371522+00:00",
+    "handwritten_photo_count": 6,
+    "week4_photo_count": 2,
+    "handwritten_topic_coverage_complete": false,
+    "remaining_handwritten_topics": [
+      "list comprehensions",
+      "dictionary iteration and zip()",
+      "reading and writing files",
+      "named exceptions",
+      "lists of dictionaries"
+    ],
+    "photo_reviewed_on": "2026-10-19",
+    "photo_sources": [
+      {
+        "original_filename": "IMG_6296.HEIC",
+        "attachment_name": "week-01-IMG_6296.jpg",
+        "topics": "Week 1: values, types, input, arithmetic and formatting",
+        "original_sha256": "1d75059bca3a738e3f22b26554fac4e2a35c6e690c9330279d0f5b6147724afb",
+        "jpeg_sha256": "e247690844a2659e78b73a67f321e3e0ad3d46ad2d0666bea9aab354b60a3fef"
+      },
+      {
+        "original_filename": "IMG_6297.HEIC",
+        "attachment_name": "week-02-IMG_6297.jpg",
+        "topics": "Week 2: comparisons, decisions and loops",
+        "original_sha256": "0086c561bd8460d188f59a2a03ed46a15eef761dd4a68ecabd87ab83f66ac61f",
+        "jpeg_sha256": "d6c9ff2e45bbc753c9467326061e96e01bf08248bcfc9512cb115f4868870de7"
+      },
+      {
+        "original_filename": "IMG_6298.HEIC",
+        "attachment_name": "week-02-03-IMG_6298.jpg",
+        "topics": "Week 2 continuation and Week 3: functions, arguments and scope",
+        "original_sha256": "5d8ba60ce30470985f08ecde7ae98b66e5de74a2af9779c98cd9d6ec3e49ac2b",
+        "jpeg_sha256": "7ab159ce0c19dca37f25395a05cd16700aced12b23743d855db3d7daf69c2163"
+      },
+      {
+        "original_filename": "IMG_6299.HEIC",
+        "attachment_name": "week-03-IMG_6299.jpg",
+        "topics": "Week 3 continuation: modules and the main guard",
+        "original_sha256": "5c4b0640f892f3063e20a41ce11c0d5f5cb4e972946d7f5203d348e1784bbf07",
+        "jpeg_sha256": "8b685eef13d7166e74f4a3737de6cae80cb23909627e7d8dc7859102bd7e615c"
+      },
+      {
+        "original_filename": "IMG_6300.HEIC",
+        "attachment_name": "week-04-lists-IMG_6300.jpg",
+        "topics": "Week 4: lists, indexing, mutation and tuples",
+        "original_sha256": "c163522a0b520d0ef9d78d0451e67c0edc8ed3811e69ea91f0e2e1ad2edb9837",
+        "jpeg_sha256": "37b5ec08048b9a5bf2f27c2f7ee53c6db70d2aa98f703269ccf4755eef7f1d70"
+      },
+      {
+        "original_filename": "IMG_6301.HEIC",
+        "attachment_name": "week-04-dictionaries-IMG_6301.jpg",
+        "topics": "Week 4: dictionaries and sets",
+        "original_sha256": "4e127b161bffc7bbdfe8c58c694ae955389778ad300b5c5b74aac9679611971b",
+        "jpeg_sha256": "28f844973153aecfa8185f963c0366a0a7033d9b0796381aa67197274d48195a"
+      }
+    ],
+    "last_code_verification_utc": "2026-10-19T05:25:16.693492+00:00"
   },
   "verification": {
     "checks": 524,
@@ -101,6 +180,30 @@
     "failed": 0,
     "notebooks": 26,
     "code_cells": 291,
-    "intentional_notebook_errors": 13
-  }
+    "intentional_notebook_errors": 13,
+    "verified_at_utc": "2026-10-19T05:25:16.693492+00:00"
+  },
+  "last_reviewed_on": "2026-10-19",
+  "cw1": {
+    "scope": "Weeks 1–7",
+    "module_weight_percent": 50,
+    "required_weekly_files": [
+      "completed LAB notebook",
+      "mini-project from LAB/template.py",
+      "handwritten cumulative Cheat Sheet photo in the lab journal cell"
+    ],
+    "submission_method": "Submit the GitHub repository link through Moodle",
+    "brief_url": "https://mdx.mrooms.net/mod/resource/view.php?id=3747960",
+    "brief_reviewed_on": "2026-10-19",
+    "exact_deadline_confirmed": false,
+    "live_submission_link_confirmed": false,
+    "rubric_percent": {
+      "python_knowledge_and_application": 35,
+      "working_mini_projects": 25,
+      "problem_solving_and_debugging": 15,
+      "code_quality_and_good_practice": 15,
+      "learning_evidence_and_portfolio_completion": 10
+    }
+  },
+  "tutoring_checkpoint": "Dictionary keys, updates, get(), items() and variable assignment practised. Combining a condition with a running total and placing the final print outside the loop still need independent practice."
 }
