@@ -12,6 +12,12 @@ only going to use once — usually right inside `.apply()`.
 
 > **Already know this?** Skip to the *Topic 4 Challenge*.
 
+## My Week 6 lecture notes
+
+<img src="../notes/IMG_6697.jpg" alt="Handwritten Week 6 pandas notes on Series, DataFrames, row selection and lambda functions" width="550">
+
+[View the full-size photo](../notes/IMG_6697.jpg)
+
 ---
 ## 1. `.apply()` runs a function on every value in a column
 

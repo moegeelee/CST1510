@@ -11,6 +11,12 @@ A Series is one column. A DataFrame is a table built from them.
 
 > **Already know this?** Skip to the *Topic 1 Challenge*.
 
+## My Week 6 lecture notes
+
+<img src="../notes/IMG_6697.jpg" alt="Handwritten Week 6 pandas notes on Series, DataFrames, row selection and lambda functions" width="550">
+
+[View the full-size photo](../notes/IMG_6697.jpg)
+
 ---
 ## 1. A Series - one column, with an index
 

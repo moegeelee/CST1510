@@ -11,6 +11,12 @@ Answering "one number per group" questions without writing the loop yourself.
 
 > **Already know this?** Skip to the *Topic 3 Challenge*.
 
+## My Week 6 lecture notes
+
+<img src="../notes/IMG_6697.jpg" alt="Handwritten Week 6 pandas notes on Series, DataFrames, row selection and lambda functions" width="550">
+
+[View the full-size photo](../notes/IMG_6697.jpg)
+
 ---
 ## 1. `groupby` splits the rows into groups
 

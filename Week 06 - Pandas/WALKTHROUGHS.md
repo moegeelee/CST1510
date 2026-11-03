@@ -12,3 +12,9 @@ All four walkthroughs are complete: 17 practice exercises and four topic challen
 Open a notebook in its topic folder and run the cells from top to bottom. Select the project’s `.venv` Python kernel; pandas and matplotlib are installed there. Each topic reads its data from `examples/servers.csv`.
 
 Topic 4 produces `servers_report.csv` and `servers_challenge_report.csv`. Its charts are embedded in the notebook and shown in its README preview.
+
+## My Week 6 lecture notes
+
+<img src="notes/IMG_6697.jpg" alt="Handwritten Week 6 pandas notes on Series, DataFrames, row selection and lambda functions" width="550">
+
+[View the full-size photo](notes/IMG_6697.jpg)
