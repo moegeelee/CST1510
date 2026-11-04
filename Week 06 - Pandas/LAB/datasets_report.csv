@@ -1,0 +1,7 @@
+dataset,rows_loaded,rows_expected,percent,status
+class_survey,350,500,70.0,OK
+weather_data,178,200,89.0,OK
+traffic_data,900,1000,90.0,WARNING
+sales_data,760,800,95.0,WARNING
+student_scores,250,250,100.0,OVER LIMIT
+sensor_readings,720,600,120.0,OVER LIMIT

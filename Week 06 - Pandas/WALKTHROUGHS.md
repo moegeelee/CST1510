@@ -18,3 +18,7 @@ Topic 4 produces `servers_report.csv` and `servers_challenge_report.csv`. Its ch
 <img src="notes/IMG_6697.jpg" alt="Handwritten Week 6 pandas notes on Series, DataFrames, row selection and lambda functions" width="550">
 
 [View the full-size photo](notes/IMG_6697.jpg)
+
+## Week 6 lab
+
+The [completed lab](LAB/README.md) includes all 14 drills, both challenges and the Data Science mini-project through the Excellent tier, with saved outputs, CSV reports and charts. The supplied handwritten Week 6 photo is included in the lab notebook. An updated cumulative Weeks 1–6 handwritten cheat sheet and the optional personal error reflection remain to be added after practice.
