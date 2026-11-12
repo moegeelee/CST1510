@@ -1,0 +1,6 @@
+  Library_Poll , RATING=4 , age = 23
+Campus_WiFi,  AGE = 21, Rating= 2
+Study_SPACE ,rating =5,   AgE=19
+  Canteen_Rating,Age= 24 , RATING = 1
+BUS_Service ,  rating=3 ,AGE=20
+  Library_POLL, age =27,   rAtInG = 5
