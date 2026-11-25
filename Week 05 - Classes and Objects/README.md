@@ -122,4 +122,4 @@ The original download is preserved in commit `075b5a7`.
 
 ## Lab update, 25 November 2026
 
-The [lab notebook](LAB/W05_Lab.ipynb) includes saved outputs for D1–D11 and C1. The [mini-project](LAB/template.py) reads [five datasets](LAB/datasets.txt), prints a report for each and counts the over-limit results. Codex assisted with adapting earlier class and file-reading exercises, debugging and testing. The photos in the journal show the available handwritten notes.
+The [lab notebook](LAB/W05_Lab.ipynb) includes saved outputs for D1–D11 and both challenges. The [mini-project](LAB/template.py) reads [five datasets](LAB/datasets.txt), prints a report for each and counts the over-limit results. Codex assisted with adapting earlier class and file-reading exercises, debugging and testing. The photos in the journal show the available handwritten notes.
