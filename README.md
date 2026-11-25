@@ -43,7 +43,7 @@ Six newer handwritten-note photos, `IMG_6296`–`IMG_6301`, are now embedded in 
 
 ## Remaining work
 
-- Week 5 lab exercises D8, D10 and C2 remain open. The mini-project and three warm-up fixes are in the Week 5 LAB folder.
+- The Week 5 C2 account-lock challenge remains open. The mini-project and three warm-up fixes are in the Week 5 LAB folder.
 - The Week 6 and Week 7 journals include the available handwritten pages through Week 6. The Week 7 Box 7 photo is outstanding.
 - Review handwritten corrections and the required cumulative Cheat Sheet / numbered-box layout.
 - Finish the student's own Week 4 notes and add a new photo. The supplied Week 4 pages do not yet cover comprehensions, dictionary iteration and `zip()`, file handling, named exceptions, or lists of dictionaries.
