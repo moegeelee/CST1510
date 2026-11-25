@@ -1,5 +1,4 @@
-# BROKEN ON PURPOSE.
-# Run it, read the last line, then fix it.
+# Call the status method on the record whose values it checks.
 
 class Record:
     def __init__(self, label, value, limit):
@@ -11,4 +10,4 @@ class Record:
         return "OVER LIMIT" if self.value > self.limit else "OK"
 
 r = Record("R-001", 120.0, 100.0)
-print(status())
+print(r.status())

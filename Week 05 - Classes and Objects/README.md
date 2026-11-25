@@ -6,7 +6,7 @@
 
 <img src="notes/IMG_6397.jpg" alt="My handwritten Week 5 lecture notes" width="550">
 
-The same photo is included at the end of each walkthrough notebook.
+The same handwritten page appears in the walkthroughs. The lab journal includes seven photos covering Weeks 1–5.
 
 Read the completed walkthroughs directly on GitHub:
 
@@ -72,9 +72,9 @@ Everything is in **`LAB/W05_Lab.ipynb`** — it runs the whole session in order.
 | `02 - Methods/` | walkthrough + 2 examples | workshop / revision |
 | `03 - Many Objects Together/` | walkthrough + 2 examples + sample data | workshop / revision |
 | `LAB/W05_Lab.ipynb` | warm-up, drills, mini-project, cheat sheet, git | lab |
-| `LAB/template.py` | the mini-project scaffold | lab |
+| `LAB/template.py` | dataset mini-project | lab |
 | `LAB/records_sample.txt` | sample data for the drills | lab |
-| `LAB/warmup/` | 3 deliberately broken files | lab 0:00 |
+| `LAB/warmup/` | three corrected warm-up scripts | lab 0:00 |
 
 ---
 
@@ -118,4 +118,8 @@ Three points to keep clear:
 - An ordinary function can also change an object it receives. Assigning a different value to a local variable does not reassign the caller's variable.
 - The optional shared counter adds one for every over-limit `status()` call, including repeated calls on the same record. The final challenge uses a separate running total and a `status()` method that does not change counters.
 
-The original download is preserved in commit `075b5a7`. The lab notebook, warm-ups, mini-project and handwritten Week 5 notes remain supplied exercises to complete; they are not marked as completed by this walkthrough work.
+The original download is preserved in commit `075b5a7`.
+
+## Lab update, 25 November 2026
+
+The [lab notebook](LAB/W05_Lab.ipynb) includes saved outputs for D1–D7, D9, D11 and C1. The [mini-project](LAB/template.py) reads [five datasets](LAB/datasets.txt), prints a report for each and counts the over-limit results. Codex assisted with adapting earlier class and file-reading exercises, debugging and testing. The photos in the journal show the available handwritten notes.
